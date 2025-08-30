@@ -1,0 +1,31 @@
+{
+  "category_name": "Perdagangan",
+  "category_desc": "layanan Pemerintahan",
+  "category_banner_url": " ",
+  "sub_menu": [
+    {
+      "id": 43,
+      "label": "Info Bahan Pokok",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bapok.png",
+      "type": "activity",
+      "link": "/layanan/perdagangan/infobapok",
+      "web_link": "/layanan/perdagangan/infobapok"
+    },
+    {
+      "id": 58,
+      "label": "Bantul Mapan",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bantul-mapan.png",
+      "type": "webview",
+      "link": "https://bantulmapan.bantulkab.go.id/",
+      "web_link": "https://bantulmapan.bantulkab.go.id/"
+    },
+    {
+      "id": 44,
+      "label": "Bantul Online Shop",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bos.png",
+      "type": "webview",
+      "link": "https://bos.bantulkab.go.id/id",
+      "web_link": "https://bos.bantulkab.go.id/id"
+    }
+  ]
+}

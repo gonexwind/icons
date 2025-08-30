@@ -1,0 +1,96 @@
+{
+  "category_name": "Pemerintahan",
+  "category_desc": "",
+  "category_banner_url": " ",
+  "sub_menu": [
+    {
+      "id": 26,
+      "label": "Agenda Perangkat Daerah",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/agenda.png",
+      "type": "activity",
+      "link": "/layanan/pemerintahan/agenda",
+      "web_link": "/layanan/pemerintahan/agenda"
+    },
+    {
+      "id": 62,
+      "label": "SINOMAN",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sinoman.png",
+      "type": "webview",
+      "link": "https://sinoman.bantulkab.go.id/",
+      "web_link": "https://sinoman.bantulkab.go.id/"
+    },
+    {
+      "id": 61,
+      "label": "CSR",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/csr.png",
+      "type": "webview",
+      "link": "https://csr.bantulkab.go.id/",
+      "web_link": "https://csr.bantulkab.go.id/"
+    },
+    {
+      "id": 63,
+      "label": "SIPD",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sipd.png",
+      "type": "webview",
+      "link": "https://sipd.kemendagri.go.id/",
+      "web_link": "https://sipd.kemendagri.go.id/"
+    },
+    {
+      "id": 64,
+      "label": "SiRUP",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sirup.png",
+      "type": "webview",
+      "link": "https://sirup.lkpp.go.id/sirup/rekap/klpd/D68",
+      "web_link": "https://sirup.lkpp.go.id/sirup/rekap/klpd/D68"
+    },
+    {
+      "id": 65,
+      "label": "SAPA ASN",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sapa.png",
+      "type": "webview",
+      "link": "https://asn.bantulkab.go.id/",
+      "web_link": "https://asn.bantulkab.go.id/"
+    },
+    {
+      "id": 66,
+      "label": "INAPROC",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/inaproc.png",
+      "type": "webview",
+      "link": "https://spse.inaproc.id/bantulkab",
+      "web_link": "https://spse.inaproc.id/bantulkab"
+    },
+    {
+      "id": 73,
+      "label": "Buku Tamu",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/buku_tamu.png",
+      "type": "activity",
+      "link": "/layanan/pemerintahan/bukutamu",
+      "web_link": "/layanan/pemerintahan/bukutamu"
+    },
+    {
+      "id": 74,
+      "label": "Reservasi Kunjungan",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/kunjungan.png",
+      "type": "activity",
+      "link": "/layanan/pemerintahan/reservasi",
+      "web_link": "/layanan/pemerintahan/reservasi"
+    },
+    {
+      "id": 72,
+      "label": "IPKD",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ipkd.png",
+      "type": "activity",
+      "link": "/layanan/pemerintahan/ipkd",
+      "web_link": "/layanan/pemerintahan/ipkd"
+    },
+    {
+      "id": 75,
+      "label": "Reservasi Ruangan",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ruangan.png",
+      "type": "activity",
+      "link": "/layanan/pemerintahan/booking",
+      "web_link": "/layanan/pemerintahan/booking"
+    }
+  ]
+}
+

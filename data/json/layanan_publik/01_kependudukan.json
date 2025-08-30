@@ -1,0 +1,16 @@
+{
+  "category_name": "Kependudukan",
+  "category_desc": "",
+  "category_banner_url": " ",
+  "sub_menu": [
+    {
+      "id": 7,
+      "label": "Dukcapil Smart",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan/dukcapil_smart.png",
+      "type": "activity",
+      "link": "/layanan/kependudukan/dukcapilsmart",
+      "web_link": "/layanan/kependudukan/dukcapilsmart"
+    }
+  ]
+}
+

@@ -1,0 +1,302 @@
+[
+  {
+    "category_name": "Home",
+    "category_desc": "Home",
+    "category_banner_url": " ",
+    "sub_menu": [
+      {
+        "id": 19,
+        "label": "Kependudukan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/5",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/5"
+      },
+      {
+        "id": 29,
+        "label": "Kesehatan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/7",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/7"
+      },
+      {
+        "id": 35,
+        "label": "Pajak & Retribusi",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak_retribusi.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/11",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/11"
+      },
+      {
+        "id": 30,
+        "label": "Pemerintahan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/8",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/8"
+      },
+      {
+        "id": 32,
+        "label": "Penanaman Modal",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/10",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/10"
+      },
+      {
+        "id": 20,
+        "label": "Pendidikan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/6",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/6"
+      },
+      {
+        "id": 42,
+        "label": "Perdagangan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/12",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/12"
+      },
+      {
+        "id": 99,
+        "label": "Lihat Semua",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/more.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/12",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/12"
+      }
+    ]
+  },
+  {
+    "category_name": "Informasi Publik",
+    "category_desc": "",
+    "category_banner_url": "",
+    "sub_menu": [
+      {
+        "id": 11,
+        "label": "Pengumuman",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/pengumuman.png",
+        "type": "activity",
+        "link": "/pengumuman",
+        "web_link": "/pengumuman"
+      },
+      {
+        "id": 12,
+        "label": "Berita",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/berita.png",
+        "type": "activity",
+        "link": "/berita",
+        "web_link": "/berita"
+      },
+      {
+        "id": 13,
+        "label": "CCTV",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/cctv.png",
+        "type": "activity",
+        "link": "/cctv",
+        "web_link": "/cctv"
+      },
+      {
+        "id": 14,
+        "label": "Titik Wifi",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/info_lokasi_wifi.png",
+        "type": "activity",
+        "link": "/wifi",
+        "web_link": "/wifi"
+      },
+      {
+        "id": 15,
+        "label": "Galeri Foto",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/galeri_foto.png",
+        "type": "activity",
+        "link": "/galleri-foto",
+        "web_link": "/galerifoto"
+      },
+      {
+        "id": 17,
+        "label": "Bantul TV",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_tv.png",
+        "type": "activity",
+        "link": "/ilm",
+        "web_link": "/ilm"
+      },
+      {
+        "id": 18,
+        "label": "Bantul Events",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_events.png",
+        "type": "activity",
+        "link": "/event-bantul",
+        "web_link": "/event"
+      }
+    ]
+  },
+  {
+    "category_name": "Layanan Publik",
+    "category_desc": "",
+    "category_banner_url": "",
+    "sub_menu": [
+      {
+        "id": 19,
+        "label": "Kependudukan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/5",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/5"
+      },
+      {
+        "id": 20,
+        "label": "Pendidikan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/6",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/6"
+      },
+      {
+        "id": 29,
+        "label": "Kesehatan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/7",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/7"
+      },
+      {
+        "id": 30,
+        "label": "Pemerintahan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/8",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/8"
+      },
+      {
+        "id": 31,
+        "label": "Hukum",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/9",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/9"
+      },
+      {
+        "id": 32,
+        "label": "Penanaman Modal",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/10",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/10"
+      },
+      {
+        "id": 35,
+        "label": "Pajak & Retribusi",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak_retribusi.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/11",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/11"
+      },
+      {
+        "id": 42,
+        "label": "Perdagangan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/12",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/12"
+      },
+      {
+        "id": 45,
+        "label": "Pariwisata",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pariwisata.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/13",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/13"
+      },
+      {
+        "id": 47,
+        "label": "Penanda Keistimewaan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan.png",
+        "type": "submenu",
+        "link": "https://api.bantulkab.go.id/api/v3/menus/14",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/14"
+      },
+      {
+        "id": 60,
+        "label": "Kebudayaan",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kebudayaan.png",
+        "type": "webview",
+        "link": "https://kebudayaanbantul.bantulkab.go.id/",
+        "web_link": "https://kebudayaanbantul.bantulkab.go.id/"
+      },
+      {
+        "id": 50,
+        "label": "Sedata Sebantul",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/satu_dadta.png",
+        "type": "webview",
+        "link": "https://data.bantulkab.go.id/",
+        "web_link": "https://data.bantulkab.go.id/"
+      },
+      {
+        "id": 51,
+        "label": "GSB Bantul",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/gsb_bantul.png",
+        "type": "webview",
+        "link": "https://gsb.bantulkab.go.id/",
+        "web_link": "https://gsb.bantulkab.go.id/"
+      },
+      {
+        "id": 52,
+        "label": "Hubungi Kami",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hubungi_kami.png",
+        "type": "activity",
+        "link": "/hubungi-kami",
+        "web_link": "/hubungikami"
+      },
+      {
+        "id": 53,
+        "label": "Lapor Bantul",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/lapor_bantul.png",
+        "type": "webview",
+        "link": "https://www.lapor.go.id/",
+        "web_link": "https://www.lapor.go.id/"
+      }
+    ]
+  },
+  {
+    "category_name": "Layanan Administrasi Pemerintahan",
+    "category_desc": "layanan administrasi untuk Pemerintahan Kabupaten Bantul",
+    "category_banner_url": "",
+    "sub_menu": [
+      {
+        "id": 59,
+        "label": "Esurat",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/esurat.png",
+        "type": "activity",
+        "link": "/surban",
+        "web_link": "/surban"
+      },
+      {
+        "id": 98,
+        "label": "Bantara",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/bantara.png",
+        "type": "activity",
+        "link": "https://bantara.bantulkab.go.id/",
+        "web_link": "https://bantara.bantulkab.go.id/"
+      },
+      {
+        "id": 68,
+        "label": "Presensi",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/presensi.webp",
+        "type": "webview",
+        "link": "https://play.google.com/store/apps/details?id=dmi.presensibantul&hl=id",
+        "web_link": "https://play.google.com/store/apps/details?id=dmi.presensibantul&hl=id"
+      },
+      {
+        "id": 67,
+        "label": "eKinerja",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/e_kinerja.png",
+        "type": "webview",
+        "link": "https://kinerja.bkn.go.id/",
+        "web_link": "https://kinerja.bkn.go.id/"
+      }
+    ]
+  }
+]

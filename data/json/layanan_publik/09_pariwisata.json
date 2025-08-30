@@ -1,0 +1,106 @@
+{
+  "category_name": "Pariwisata",
+  "category_desc": "layanan Pemerintahan",
+  "category_banner_url": " ",
+  "sub_menu": [
+    {
+      "id": 46,
+      "label": "Jelajah Bantul",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/jelajah_bantul.png",
+      "type": "activity",
+      "link": "/layanan/pariwisata/jelajahbantul",
+      "web_link": "/jelajah",
+      "sub_menu": [
+        {
+          "id": 101,
+          "label": "Beli Tiket Wisata",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/ticket.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/tiket",
+          "web_link": "/jelajah"
+        },
+        {
+          "id": 102,
+          "label": "Destinasi Wisata",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/destinasi.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/destinasi",
+          "web_link": "/jelajah"
+        },
+        {
+          "id": 103,
+          "label": "Akomodasi Wisata",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/akomodasi.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/akomodasi",
+          "web_link": "/jelajah"
+        },
+        {
+          "id": 104,
+          "label": "Agen Perjalanan",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/agen.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/agen",
+          "web_link": "/jelajah"
+        },
+        {
+          "id": 105,
+          "label": "Pemandu Wisata",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/pemandu.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/pemandu",
+          "web_link": "/jelajah"
+        },
+        {
+          "id": 106,
+          "label": "Kuliner",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/kuliner.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/kuliner",
+          "web_link": "/jelajah"
+        },
+        {
+          "id": 107,
+          "label": "Belanja",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/belanja.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/belanja",
+          "web_link": "/jelajah"
+        },
+        {
+          "id": 108,
+          "label": "Kerajinan",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/kerajinan.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/kerajinan",
+          "web_link": "/jelajah"
+        },
+        {
+          "id": 109,
+          "label": "Seni Budaya",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/seni.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/seni",
+          "web_link": "/jelajah"
+        },
+        {
+          "id": 110,
+          "label": "Video Wisata",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/jelajah_bantul.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/video",
+          "web_link": "/jelajah"
+        },
+        {
+          "id": 111,
+          "label": "Fasilitas Umum",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/info.png",
+          "type": "activity",
+          "link": "/layanan/pariwisata/jelajahbantul/info",
+          "web_link": "/jelajah"
+        }
+      ]
+    }
+  ]
+}
+

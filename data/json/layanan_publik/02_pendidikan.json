@@ -1,0 +1,32 @@
+{
+  "category_name": "Pendidikan",
+  "category_desc": "",
+  "category_banner_url": " ",
+  "sub_menu": [
+    {
+      "id": 21,
+      "label": "EVOSS",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/evoss.png",
+      "type": "webview",
+      "link": "https://evoss.bantulkab.go.id/",
+      "web_link": "https://evoss.bantulkab.go.id/"
+    },
+    {
+      "id": 22,
+      "label": "PISA",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/pisa.png",
+      "type": "webview",
+      "link": "https://pisa.bantulkab.go.id/",
+      "web_link": "https://pisa.bantulkab.go.id/"
+    },
+    {
+      "id": 97,
+      "label": "Bantul Pinter",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
+      "type": "webview",
+      "link": "https://perpusda.bantulkab.go.id/",
+      "web_link": "https://perpusda.bantulkab.go.id/"
+    }
+  ]
+}
+

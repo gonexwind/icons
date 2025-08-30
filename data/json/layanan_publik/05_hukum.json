@@ -1,0 +1,24 @@
+{
+  "category_name": "Hukum",
+  "category_desc": "layanan Pemerintahan",
+  "category_banner_url": " ",
+  "sub_menu": [
+    {
+      "id": 28,
+      "label": "JDIH DPRD",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/jdih_dprd.png",
+      "type": "webview",
+      "link": "https://jdih-dprd.bantulkab.go.id/",
+      "web_link": "https://jdih-dprd.bantulkab.go.id/"
+    },
+    {
+      "id": 27,
+      "label": "JDIH Bantul",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/jdih.png",
+      "type": "webview",
+      "link": "https://jdih.bantulkab.go.id/",
+      "web_link": "https://jdih.bantulkab.go.id/"
+    }
+  ]
+}
+

@@ -1,0 +1,32 @@
+{
+  "category_name": "Pemanaman Modal",
+  "category_desc": "layanan Pemerintahan",
+  "category_banner_url": " ",
+  "sub_menu": [
+    {
+      "id": 34,
+      "label": "OSS",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/oss.png",
+      "type": "webview",
+      "link": "https://oss.go.id/",
+      "web_link": "https://oss.go.id/"
+    },
+    {
+      "id": 33,
+      "label": "Lantip",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/lantip.png",
+      "type": "activity",
+      "link": "/layanan/penanamanmodal/lantip",
+      "web_link": "/layanan/penanamanmodal/lantip"
+    },
+    {
+      "id": 96,
+      "label": "Syarat Izin Lantip",
+      "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/syarat_lantip.png",
+      "type": "activity",
+      "link": "/layanan/penanamanmodal/lantip-syarat",
+      "web_link": "/layanan/penanamanmodal/lantip-syarat"
+    }
+  ]
+}
+

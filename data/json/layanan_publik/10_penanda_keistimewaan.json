@@ -1,0 +1,25 @@
+[
+  {
+    "category_name": "Penanda Keistimewaan",
+    "category_desc": "layanan Pemerintahan",
+    "category_banner_url": " ",
+    "sub_menu": [
+      {
+        "id": 49,
+        "label": "Makam Kotagede",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan/makam_kotagede.png",
+        "type": "webview",
+        "link": "https://makamkotagede.bantulkab.go.id/",
+        "web_link": "https://makamkotagede.bantulkab.go.id/"
+      },
+      {
+        "id": 48,
+        "label": "Makam Imogiri",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan/makam_imogiri.png",
+        "type": "webview",
+        "link": "https://makamimogiri.bantulkab.go.id/",
+        "web_link": "https://makamimogiri.bantulkab.go.id/"
+      }
+    ]
+  }
+]

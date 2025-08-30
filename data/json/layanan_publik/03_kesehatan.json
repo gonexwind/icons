@@ -1,0 +1,91 @@
+{
+  "category_name": "Kesehatan",
+  "category_desc": "layanan kesehatan",
+  "category_banner_url": " ",
+  "sub_menu": [
+    {
+      "id": 112,
+      "label": "Informasi",
+      "type": "parent",
+      "sub_menu": [
+        {
+          "id": 79,
+          "label": "Dashboard Stunting",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/stunting.png",
+          "type": "webview",
+          "link": "https://bantulpedia.bantulkab.go.id/layanan/kesehatan/dashboard-stunting"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "label": "Puskesmas",
+      "type": "parent",
+      "sub_menu": [
+        {
+          "id": 114,
+          "label": "Pendaftaran Pasien",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/register.png",
+          "type": "activity",
+          "link": "/layanan/kesehatan/puskesmas/daftar"
+        },
+        {
+          "id": 115,
+          "label": "Status Pendaftaran",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
+          "type": "activity",
+          "link": "/layanan/kesehatan/puskesmas/status"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "label": "RSUD Panembahan Senopati",
+      "type": "parent",
+      "sub_menu": [
+        {
+          "id": 25,
+          "label": "Pendaftaran Pasien",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/daftar.png",
+          "type": "activity",
+          "link": "/layanan/kesehatan/rsud/daftar"
+        },
+        {
+          "id": 117,
+          "label": "Verifikasi Pasien",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/verif.png",
+          "type": "activity",
+          "link": "/layanan/kesehatan/rsud/verif"
+        },
+        {
+          "id": 118,
+          "label": "Status Pendaftaran",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
+          "type": "activity",
+          "link": "/layanan/kesehatan/rsud/status"
+        },
+        {
+          "id": 119,
+          "label": "Riwayat Pasien",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/history.png",
+          "type": "activity",
+          "link": "/layanan/kesehatan/rsud/history"
+        },
+        {
+          "id": 24,
+          "label": "Info Kamar",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
+          "type": "webview",
+          "link": "https://rsudps.bantulkab.go.id/api/infobed/data"
+        },
+        {
+          "id": 120,
+          "label": "Cari Dokter",
+          "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/dokter.png",
+          "type": "activity",
+          "link": "/layanan/kesehatan/rsud/dokter"
+        }
+      ]
+    }
+  ]
+}
