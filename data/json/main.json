@@ -659,7 +659,7 @@
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
                 "type": "webview",
                 "link": "infoBedRsud",
-                "web_link": "https://rsudps.bantulkab.go.id/api/infobed/data",
+                "web_link": "https://rsudps.bantulkab.go.id/api/infobed/data"
               },
               {
                 "id": 120,
