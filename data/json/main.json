@@ -74,7 +74,7 @@
               {
                 "id": 25,
                 "label": "Pendaftaran Pasien",
-                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/daftar.png",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/register.png",
                 "type": "activity",
                 "link": "pendaftaranPasienRsud"
               },
@@ -219,28 +219,28 @@
               {
                 "id": 133,
                 "label": "Pasar",
-                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/pasar.png",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_pasar.png",
                 "type": "activity",
                 "link": "tagihanPasar"
               },
               {
                 "id": 134,
                 "label": "Lab",
-                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/lab.png",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_lab.png",
                 "type": "activity",
                 "link": "tagihanLab"
               },
               {
                 "id": 135,
                 "label": "Kios Terminal",
-                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/kios_terminal.png",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_kios_terminal.png",
                 "type": "activity",
                 "link": "tagihanKiosTerminal"
               },
               {
                 "id": 136,
                 "label": "Limbah",
-                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/limbah.png",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_limbah.png",
                 "type": "activity",
                 "link": "tagihanLimbah"
               }
@@ -352,7 +352,33 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/06_penanaman_modal.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/10"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/10",
+        "sub_menu": [
+          {
+            "id": 34,
+            "label": "OSS",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/oss.png",
+            "type": "webview",
+            "link": "oss",
+            "web_link": "https://oss.go.id/"
+          },
+          {
+            "id": 33,
+            "label": "Lantip",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/lantip.png",
+            "type": "activity",
+            "link": "lantip",
+            "web_link": "/layanan/penanamanmodal/lantip"
+          },
+          {
+            "id": 96,
+            "label": "Syarat Izin Lantip",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/syarat_lantip.png",
+            "type": "activity",
+            "link": "syaratIzinLantip",
+            "web_link": "/layanan/penanamanmodal/lantip-syarat"
+          }
+        ]
       },
       {
         "id": 20,
@@ -1115,7 +1141,7 @@
       {
         "id": 50,
         "label": "Sedata Sebantul",
-        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/satu_data.png",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/satudata.png",
         "type": "webview",
         "link": "https://data.bantulkab.go.id/",
         "web_link": "https://data.bantulkab.go.id/"
