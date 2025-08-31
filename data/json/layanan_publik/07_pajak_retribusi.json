@@ -13,7 +13,7 @@
           "label": "Pajak Bantul",
           "icon": "https://bantulkab.go.id/resource/doc/images/bantulpediaicon/pajakda.png",
           "type": "webview",
-          "link": "https://pajakda.bantulkab.go.id/apps/public/index",
+          "link": "pajakda",
           "web_link": "https://pajakda.bantulkab.go.id/apps/public/index"
         },
         {
@@ -21,7 +21,7 @@
           "label": "Lapak Bantul",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/lapak_bantul.png",
           "type": "activity",
-          "link": ""
+          "link": "lapakBantul"
         }
       ]
     },
@@ -35,21 +35,21 @@
           "label": "Info Kuota",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/info_kuota.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/sipentol/kuota"
+          "link": "infoKuota"
         },
         {
           "id": 125,
           "label": "Info Tagihan",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/info_tagihan.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/sipentol/tagihan"
+          "link": "infoTagihan"
         },
         {
           "id": 126,
           "label": "Cek Kendaraan",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/cek_kendaraan.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/sipentol/cek"
+          "link": "cekKendaraan"
         }
       ]
     },
@@ -63,63 +63,64 @@
           "label": "Bayar",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/bayar.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/retribusi/bayar"
+          "link": "bayarRetribusi"
         },
         {
           "id": 129,
           "label": "Realisasi",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/realisasi_retribusi.png",
           "type": "webview",
-          "link": "https://e-retribusi.bantulkab.go.id/Bss_realisasi_all"
+          "link": "realisasiRetribusi",
+          "web_link": "https://e-retribusi.bantulkab.go.id/Bss_realisasi_all"
         },
         {
           "id": 130,
           "label": "Rusunawa",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_rusunawa.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/retribusi/rusunawa"
+          "link": "tagihanRusunawa"
         },
         {
           "id": 131,
           "label": "Uji Air",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_air.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/retribusi/air"
+          "link": "tagihanAir"
         },
         {
           "id": 132,
           "label": "Sampah",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_sampah.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/retribusi/sampah"
+          "link": "tagihanSampah"
         },
         {
           "id": 133,
           "label": "Pasar",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/pasar.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/retribusi/pasar"
+          "link": "tagihanPasar"
         },
         {
           "id": 134,
           "label": "Lab",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/lab.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/retribusi/lab"
+          "link": "tagihanLab"
         },
         {
           "id": 135,
           "label": "Kios Terminal",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/kios_terminal.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/retribusi/kios_terminal"
+          "link": "tagihanKiosTerminal"
         },
         {
           "id": 136,
           "label": "Limbah",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/limbah.png",
           "type": "activity",
-          "link": "/layanan/pajakretribusi/retribusi/limbah"
+          "link": "tagihanLimbah"
         }
       ]
     }

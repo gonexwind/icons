@@ -8,7 +8,7 @@
       "label": "EVOSS",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/evoss.png",
       "type": "webview",
-      "link": "https://evoss.bantulkab.go.id/",
+      "link": "evoss",
       "web_link": "https://evoss.bantulkab.go.id/"
     },
     {
@@ -16,7 +16,7 @@
       "label": "PISA",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/pisa.png",
       "type": "webview",
-      "link": "https://pisa.bantulkab.go.id/",
+      "link": "pisa",
       "web_link": "https://pisa.bantulkab.go.id/"
     },
     {
@@ -24,7 +24,7 @@
       "label": "Bantul Pinter",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
       "type": "webview",
-      "link": "https://perpusda.bantulkab.go.id/",
+      "link": "perpus",
       "web_link": "https://perpusda.bantulkab.go.id/"
     }
   ]

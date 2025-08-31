@@ -8,7 +8,7 @@
       "label": "JDIH DPRD",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/jdih_dprd.png",
       "type": "webview",
-      "link": "https://jdih-dprd.bantulkab.go.id/",
+      "link": "jdihDprd",
       "web_link": "https://jdih-dprd.bantulkab.go.id/"
     },
     {
@@ -16,7 +16,7 @@
       "label": "JDIH Bantul",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/jdih.png",
       "type": "webview",
-      "link": "https://jdih.bantulkab.go.id/",
+      "link": "jdih",
       "web_link": "https://jdih.bantulkab.go.id/"
     }
   ]

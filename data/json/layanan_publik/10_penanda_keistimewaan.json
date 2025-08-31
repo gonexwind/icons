@@ -9,7 +9,7 @@
         "label": "Makam Kotagede",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan/makam_kotagede.png",
         "type": "webview",
-        "link": "https://makamkotagede.bantulkab.go.id/",
+        "link": "makamImogiri",
         "web_link": "https://makamkotagede.bantulkab.go.id/"
       },
       {
@@ -17,7 +17,7 @@
         "label": "Makam Imogiri",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan/makam_imogiri.png",
         "type": "webview",
-        "link": "https://makamimogiri.bantulkab.go.id/",
+        "link": "makamKotagede",
         "web_link": "https://makamimogiri.bantulkab.go.id/"
       }
     ]

@@ -8,7 +8,7 @@
       "label": "Info Bahan Pokok",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bapok.png",
       "type": "activity",
-      "link": "/layanan/perdagangan/infobapok",
+      "link": "infoBahanPokok",
       "web_link": "/layanan/perdagangan/infobapok"
     },
     {
@@ -16,7 +16,7 @@
       "label": "Bantul Mapan",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bantul-mapan.png",
       "type": "webview",
-      "link": "https://bantulmapan.bantulkab.go.id/",
+      "link": "bantulMapan",
       "web_link": "https://bantulmapan.bantulkab.go.id/"
     },
     {
@@ -24,7 +24,7 @@
       "label": "Bantul Online Shop",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bos.png",
       "type": "webview",
-      "link": "https://bos.bantulkab.go.id/id",
+      "link": "bos",
       "web_link": "https://bos.bantulkab.go.id/id"
     }
   ]

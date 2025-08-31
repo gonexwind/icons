@@ -8,7 +8,7 @@
       "label": "OSS",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/oss.png",
       "type": "webview",
-      "link": "https://oss.go.id/",
+      "link": "oss",
       "web_link": "https://oss.go.id/"
     },
     {
@@ -16,7 +16,7 @@
       "label": "Lantip",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/lantip.png",
       "type": "activity",
-      "link": "/layanan/penanamanmodal/lantip",
+      "link": "lantip",
       "web_link": "/layanan/penanamanmodal/lantip"
     },
     {
@@ -24,7 +24,7 @@
       "label": "Syarat Izin Lantip",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/syarat_lantip.png",
       "type": "activity",
-      "link": "/layanan/penanamanmodal/lantip-syarat",
+      "link": "syaratIzinLantip",
       "web_link": "/layanan/penanamanmodal/lantip-syarat"
     }
   ]

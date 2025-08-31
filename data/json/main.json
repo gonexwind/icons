@@ -10,7 +10,17 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/01_kependudukan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/5"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/5",
+        "sub_menu": [
+          {
+            "id": 7,
+            "label": "Dukcapil Smart",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan/dukcapil_smart.png",
+            "type": "activity",
+            "link": "dukcapilSmart",
+            "web_link": "/layanan/kependudukan/dukcapilsmart"
+          }
+        ]
       },
       {
         "id": 29,
@@ -18,7 +28,94 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/03_kesehatan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/7"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/7",
+        "sub_menu": [
+          {
+            "id": 112,
+            "label": "Informasi",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 79,
+                "label": "Dashboard Stunting",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/stunting.png",
+                "type": "webview",
+                "link": "/informasiStunting",
+                "web_link": "https://bantulpedia.bantulkab.go.id/layanan/kesehatan/dashboard-stunting"
+              }
+            ]
+          },
+          {
+            "id": 113,
+            "label": "Puskesmas",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 114,
+                "label": "Pendaftaran Pasien",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/register.png",
+                "type": "activity",
+                "link": "pendaftaranPasienPuskesmas"
+              },
+              {
+                "id": 115,
+                "label": "Status Pendaftaran",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
+                "type": "activity",
+                "link": "statusPendaftaranPuskesmas"
+              }
+            ]
+          },
+          {
+            "id": 116,
+            "label": "RSUD Panembahan Senopati",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 25,
+                "label": "Pendaftaran Pasien",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/daftar.png",
+                "type": "activity",
+                "link": "pendaftaranPasienRsud"
+              },
+              {
+                "id": 117,
+                "label": "Verifikasi Pasien",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/verif.png",
+                "type": "activity",
+                "link": "verifikasiPasienRsud"
+              },
+              {
+                "id": 118,
+                "label": "Status Pendaftaran",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
+                "type": "activity",
+                "link": "statusPasienRsud"
+              },
+              {
+                "id": 119,
+                "label": "Riwayat Pasien",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/history.png",
+                "type": "activity",
+                "link": "riwayatPasienRsud"
+              },
+              {
+                "id": 24,
+                "label": "Info Kamar",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
+                "type": "webview",
+                "link": "infoBedRsud"
+              },
+              {
+                "id": 120,
+                "label": "Cari Dokter",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/dokter.png",
+                "type": "activity",
+                "link": "cariDokterRsud"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 35,
@@ -26,7 +123,130 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak_retribusi.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/07_pajak_retribusi.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/11"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/11",
+        "sub_menu": [
+          {
+            "id": 121,
+            "label": "Pajak",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 78,
+                "label": "Pajak Bantul",
+                "icon": "https://bantulkab.go.id/resource/doc/images/bantulpediaicon/pajakda.png",
+                "type": "webview",
+                "link": "pajakda",
+                "web_link": "https://pajakda.bantulkab.go.id/apps/public/index"
+              },
+              {
+                "id": 122,
+                "label": "Lapak Bantul",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/lapak_bantul.png",
+                "type": "activity",
+                "link": "lapakBantul"
+              }
+            ]
+          },
+          {
+            "id": 123,
+            "label": "SIPENTOL",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 124,
+                "label": "Info Kuota",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/info_kuota.png",
+                "type": "activity",
+                "link": "infoKuota"
+              },
+              {
+                "id": 125,
+                "label": "Info Tagihan",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/info_tagihan.png",
+                "type": "activity",
+                "link": "infoTagihan"
+              },
+              {
+                "id": 126,
+                "label": "Cek Kendaraan",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/cek_kendaraan.png",
+                "type": "activity",
+                "link": "cekKendaraan"
+              }
+            ]
+          },
+          {
+            "id": 127,
+            "label": "Pengecekan dan Realisasi Retribusi",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 128,
+                "label": "Bayar",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/bayar.png",
+                "type": "activity",
+                "link": "bayarRetribusi"
+              },
+              {
+                "id": 129,
+                "label": "Realisasi",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/realisasi_retribusi.png",
+                "type": "webview",
+                "link": "realisasiRetribusi",
+                "web_link": "https://e-retribusi.bantulkab.go.id/Bss_realisasi_all"
+              },
+              {
+                "id": 130,
+                "label": "Rusunawa",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_rusunawa.png",
+                "type": "activity",
+                "link": "tagihanRusunawa"
+              },
+              {
+                "id": 131,
+                "label": "Uji Air",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_air.png",
+                "type": "activity",
+                "link": "tagihanAir"
+              },
+              {
+                "id": 132,
+                "label": "Sampah",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_sampah.png",
+                "type": "activity",
+                "link": "tagihanSampah"
+              },
+              {
+                "id": 133,
+                "label": "Pasar",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/pasar.png",
+                "type": "activity",
+                "link": "tagihanPasar"
+              },
+              {
+                "id": 134,
+                "label": "Lab",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/lab.png",
+                "type": "activity",
+                "link": "tagihanLab"
+              },
+              {
+                "id": 135,
+                "label": "Kios Terminal",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/kios_terminal.png",
+                "type": "activity",
+                "link": "tagihanKiosTerminal"
+              },
+              {
+                "id": 136,
+                "label": "Limbah",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/limbah.png",
+                "type": "activity",
+                "link": "tagihanLimbah"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 30,
@@ -34,7 +254,97 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/04_pemerintahan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/8"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/8",
+        "sub_menu": [
+          {
+            "id": 26,
+            "label": "Agenda Perangkat Daerah",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/agenda.png",
+            "type": "activity",
+            "link": "agendaPerangkatDaerah",
+            "web_link": "/layanan/pemerintahan/agenda"
+          },
+          {
+            "id": 62,
+            "label": "SINOMAN",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sinoman.png",
+            "type": "webview",
+            "link": "sinoman",
+            "web_link": "https://sinoman.bantulkab.go.id/"
+          },
+          {
+            "id": 61,
+            "label": "CSR",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/csr.png",
+            "type": "webview",
+            "link": "csr",
+            "web_link": "https://csr.bantulkab.go.id/"
+          },
+          {
+            "id": 63,
+            "label": "SIPD",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sipd.png",
+            "type": "webview",
+            "link": "https://sipd.kemendagri.go.id/",
+            "web_link": "https://sipd.kemendagri.go.id/"
+          },
+          {
+            "id": 64,
+            "label": "SiRUP",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sirup.png",
+            "type": "webview",
+            "link": "sirup",
+            "web_link": "https://sirup.lkpp.go.id/sirup/rekap/klpd/D68"
+          },
+          {
+            "id": 65,
+            "label": "SAPA ASN",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sapa.png",
+            "type": "webview",
+            "link": "sapaAsn",
+            "web_link": "https://asn.bantulkab.go.id/"
+          },
+          {
+            "id": 66,
+            "label": "INAPROC",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/inaproc.png",
+            "type": "webview",
+            "link": "lpse",
+            "web_link": "https://spse.inaproc.id/bantulkab"
+          },
+          {
+            "id": 73,
+            "label": "Buku Tamu",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/buku_tamu.png",
+            "type": "activity",
+            "link": "bukuTamu",
+            "web_link": "/layanan/pemerintahan/bukutamu"
+          },
+          {
+            "id": 74,
+            "label": "Reservasi Kunjungan",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/kunjungan.png",
+            "type": "activity",
+            "link": "reservasiKunjungan",
+            "web_link": "/layanan/pemerintahan/reservasi"
+          },
+          {
+            "id": 72,
+            "label": "IPKD",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ipkd.png",
+            "type": "activity",
+            "link": "ipkd",
+            "web_link": "/layanan/pemerintahan/ipkd"
+          },
+          {
+            "id": 75,
+            "label": "Reservasi Ruangan",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ruangan.png",
+            "type": "activity",
+            "link": "reservasiRuangan",
+            "web_link": "/layanan/pemerintahan/booking"
+          }
+        ]
       },
       {
         "id": 32,
@@ -50,7 +360,33 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/02_pendidikan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/6"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/6",
+        "sub_menu": [
+          {
+            "id": 21,
+            "label": "EVOSS",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/evoss.png",
+            "type": "webview",
+            "link": "evoss",
+            "web_link": "https://evoss.bantulkab.go.id/"
+          },
+          {
+            "id": 22,
+            "label": "PISA",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/pisa.png",
+            "type": "webview",
+            "link": "pisa",
+            "web_link": "https://pisa.bantulkab.go.id/"
+          },
+          {
+            "id": 97,
+            "label": "Bantul Pinter",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
+            "type": "webview",
+            "link": "perpus",
+            "web_link": "https://perpusda.bantulkab.go.id/"
+          }
+        ]
       },
       {
         "id": 42,
@@ -58,7 +394,33 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/08_perdagangan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/12"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/12",
+        "sub_menu": [
+          {
+            "id": 43,
+            "label": "Info Bahan Pokok",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bapok.png",
+            "type": "activity",
+            "link": "infoBahanPokok",
+            "web_link": "/layanan/perdagangan/infobapok"
+          },
+          {
+            "id": 58,
+            "label": "Bantul Mapan",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bantul-mapan.png",
+            "type": "webview",
+            "link": "bantulMapan",
+            "web_link": "https://bantulmapan.bantulkab.go.id/"
+          },
+          {
+            "id": 44,
+            "label": "Bantul Online Shop",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bos.png",
+            "type": "webview",
+            "link": "bos",
+            "web_link": "https://bos.bantulkab.go.id/id"
+          }
+        ]
       },
       {
         "id": 99,
@@ -112,7 +474,7 @@
         "label": "Galeri Foto",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/galeri_foto.png",
         "type": "activity",
-        "link": "/galleri-foto",
+        "link": "/galleriFoto",
         "web_link": "/galerifoto"
       },
       {
@@ -120,7 +482,7 @@
         "label": "Bantul TV",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_tv.png",
         "type": "activity",
-        "link": "/ilm",
+        "link": "/bantulTv",
         "web_link": "/ilm"
       },
       {
@@ -128,7 +490,7 @@
         "label": "Bantul Events",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_events.png",
         "type": "activity",
-        "link": "/event-bantul",
+        "link": "/bantulEvent",
         "web_link": "/event"
       }
     ]
@@ -144,7 +506,17 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/01_kependudukan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/5"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/5",
+        "sub_menu": [
+          {
+            "id": 7,
+            "label": "Dukcapil Smart",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan/dukcapil_smart.png",
+            "type": "activity",
+            "link": "dukcapilSmart",
+            "web_link": "/layanan/kependudukan/dukcapilsmart"
+          }
+        ]
       },
       {
         "id": 20,
@@ -152,7 +524,33 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/02_pendidikan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/6"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/6",
+        "sub_menu": [
+          {
+            "id": 21,
+            "label": "EVOSS",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/evoss.png",
+            "type": "webview",
+            "link": "evoss",
+            "web_link": "https://evoss.bantulkab.go.id/"
+          },
+          {
+            "id": 22,
+            "label": "PISA",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/pisa.png",
+            "type": "webview",
+            "link": "pisa",
+            "web_link": "https://pisa.bantulkab.go.id/"
+          },
+          {
+            "id": 97,
+            "label": "Bantul Pinter",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
+            "type": "webview",
+            "link": "perpus",
+            "web_link": "https://perpusda.bantulkab.go.id/"
+          }
+        ]
       },
       {
         "id": 29,
@@ -160,7 +558,94 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/03_kesehatan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/7"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/7",
+        "sub_menu": [
+          {
+            "id": 112,
+            "label": "Informasi",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 79,
+                "label": "Dashboard Stunting",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/stunting.png",
+                "type": "webview",
+                "link": "/informasiStunting",
+                "web_link": "https://bantulpedia.bantulkab.go.id/layanan/kesehatan/dashboard-stunting"
+              }
+            ]
+          },
+          {
+            "id": 113,
+            "label": "Puskesmas",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 114,
+                "label": "Pendaftaran Pasien",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/register.png",
+                "type": "activity",
+                "link": "pendaftaranPasienPuskesmas"
+              },
+              {
+                "id": 115,
+                "label": "Status Pendaftaran",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
+                "type": "activity",
+                "link": "statusPendaftaranPuskesmas"
+              }
+            ]
+          },
+          {
+            "id": 116,
+            "label": "RSUD Panembahan Senopati",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 25,
+                "label": "Pendaftaran Pasien",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/daftar.png",
+                "type": "activity",
+                "link": "pendaftaranPasienRsud"
+              },
+              {
+                "id": 117,
+                "label": "Verifikasi Pasien",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/verif.png",
+                "type": "activity",
+                "link": "verifikasiPasienRsud"
+              },
+              {
+                "id": 118,
+                "label": "Status Pendaftaran",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
+                "type": "activity",
+                "link": "statusPasienRsud"
+              },
+              {
+                "id": 119,
+                "label": "Riwayat Pasien",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/history.png",
+                "type": "activity",
+                "link": "riwayatPasienRsud"
+              },
+              {
+                "id": 24,
+                "label": "Info Kamar",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
+                "type": "webview",
+                "link": "infoBedRsud"
+              },
+              {
+                "id": 120,
+                "label": "Cari Dokter",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/dokter.png",
+                "type": "activity",
+                "link": "cariDokterRsud"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 30,
@@ -168,7 +653,97 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/04_pemerintahan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/8"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/8",
+        "sub_menu": [
+          {
+            "id": 26,
+            "label": "Agenda Perangkat Daerah",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/agenda.png",
+            "type": "activity",
+            "link": "agendaPerangkatDaerah",
+            "web_link": "/layanan/pemerintahan/agenda"
+          },
+          {
+            "id": 62,
+            "label": "SINOMAN",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sinoman.png",
+            "type": "webview",
+            "link": "sinoman",
+            "web_link": "https://sinoman.bantulkab.go.id/"
+          },
+          {
+            "id": 61,
+            "label": "CSR",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/csr.png",
+            "type": "webview",
+            "link": "csr",
+            "web_link": "https://csr.bantulkab.go.id/"
+          },
+          {
+            "id": 63,
+            "label": "SIPD",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sipd.png",
+            "type": "webview",
+            "link": "https://sipd.kemendagri.go.id/",
+            "web_link": "https://sipd.kemendagri.go.id/"
+          },
+          {
+            "id": 64,
+            "label": "SiRUP",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sirup.png",
+            "type": "webview",
+            "link": "sirup",
+            "web_link": "https://sirup.lkpp.go.id/sirup/rekap/klpd/D68"
+          },
+          {
+            "id": 65,
+            "label": "SAPA ASN",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sapa.png",
+            "type": "webview",
+            "link": "sapaAsn",
+            "web_link": "https://asn.bantulkab.go.id/"
+          },
+          {
+            "id": 66,
+            "label": "INAPROC",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/inaproc.png",
+            "type": "webview",
+            "link": "lpse",
+            "web_link": "https://spse.inaproc.id/bantulkab"
+          },
+          {
+            "id": 73,
+            "label": "Buku Tamu",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/buku_tamu.png",
+            "type": "activity",
+            "link": "bukuTamu",
+            "web_link": "/layanan/pemerintahan/bukutamu"
+          },
+          {
+            "id": 74,
+            "label": "Reservasi Kunjungan",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/kunjungan.png",
+            "type": "activity",
+            "link": "reservasiKunjungan",
+            "web_link": "/layanan/pemerintahan/reservasi"
+          },
+          {
+            "id": 72,
+            "label": "IPKD",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ipkd.png",
+            "type": "activity",
+            "link": "ipkd",
+            "web_link": "/layanan/pemerintahan/ipkd"
+          },
+          {
+            "id": 75,
+            "label": "Reservasi Ruangan",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ruangan.png",
+            "type": "activity",
+            "link": "reservasiRuangan",
+            "web_link": "/layanan/pemerintahan/booking"
+          }
+        ]
       },
       {
         "id": 31,
@@ -176,7 +751,25 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/05_hukum.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/9"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/9",
+        "sub_menu": [
+          {
+            "id": 28,
+            "label": "JDIH DPRD",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/jdih_dprd.png",
+            "type": "webview",
+            "link": "jdihDprd",
+            "web_link": "https://jdih-dprd.bantulkab.go.id/"
+          },
+          {
+            "id": 27,
+            "label": "JDIH Bantul",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/jdih.png",
+            "type": "webview",
+            "link": "jdih",
+            "web_link": "https://jdih.bantulkab.go.id/"
+          }
+        ]
       },
       {
         "id": 32,
@@ -184,7 +777,33 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/06_penanaman_modal.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/10"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/10",
+        "sub_menu": [
+          {
+            "id": 34,
+            "label": "OSS",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/oss.png",
+            "type": "webview",
+            "link": "oss",
+            "web_link": "https://oss.go.id/"
+          },
+          {
+            "id": 33,
+            "label": "Lantip",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/lantip.png",
+            "type": "activity",
+            "link": "lantip",
+            "web_link": "/layanan/penanamanmodal/lantip"
+          },
+          {
+            "id": 96,
+            "label": "Syarat Izin Lantip",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/syarat_lantip.png",
+            "type": "activity",
+            "link": "syaratIzinLantip",
+            "web_link": "/layanan/penanamanmodal/lantip-syarat"
+          }
+        ]
       },
       {
         "id": 35,
@@ -192,7 +811,130 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak_retribusi.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/07_pajak_retribusi.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/11"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/11",
+        "sub_menu": [
+          {
+            "id": 121,
+            "label": "Pajak",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 78,
+                "label": "Pajak Bantul",
+                "icon": "https://bantulkab.go.id/resource/doc/images/bantulpediaicon/pajakda.png",
+                "type": "webview",
+                "link": "pajakda",
+                "web_link": "https://pajakda.bantulkab.go.id/apps/public/index"
+              },
+              {
+                "id": 122,
+                "label": "Lapak Bantul",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/lapak_bantul.png",
+                "type": "activity",
+                "link": "lapakBantul"
+              }
+            ]
+          },
+          {
+            "id": 123,
+            "label": "SIPENTOL",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 124,
+                "label": "Info Kuota",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/info_kuota.png",
+                "type": "activity",
+                "link": "infoKuota"
+              },
+              {
+                "id": 125,
+                "label": "Info Tagihan",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/info_tagihan.png",
+                "type": "activity",
+                "link": "infoTagihan"
+              },
+              {
+                "id": 126,
+                "label": "Cek Kendaraan",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/cek_kendaraan.png",
+                "type": "activity",
+                "link": "cekKendaraan"
+              }
+            ]
+          },
+          {
+            "id": 127,
+            "label": "Pengecekan dan Realisasi Retribusi",
+            "type": "parent",
+            "sub_menu": [
+              {
+                "id": 128,
+                "label": "Bayar",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/bayar.png",
+                "type": "activity",
+                "link": "bayarRetribusi"
+              },
+              {
+                "id": 129,
+                "label": "Realisasi",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/realisasi_retribusi.png",
+                "type": "webview",
+                "link": "realisasiRetribusi",
+                "web_link": "https://e-retribusi.bantulkab.go.id/Bss_realisasi_all"
+              },
+              {
+                "id": 130,
+                "label": "Rusunawa",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_rusunawa.png",
+                "type": "activity",
+                "link": "tagihanRusunawa"
+              },
+              {
+                "id": 131,
+                "label": "Uji Air",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_air.png",
+                "type": "activity",
+                "link": "tagihanAir"
+              },
+              {
+                "id": 132,
+                "label": "Sampah",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_sampah.png",
+                "type": "activity",
+                "link": "tagihanSampah"
+              },
+              {
+                "id": 133,
+                "label": "Pasar",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/pasar.png",
+                "type": "activity",
+                "link": "tagihanPasar"
+              },
+              {
+                "id": 134,
+                "label": "Lab",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/lab.png",
+                "type": "activity",
+                "link": "tagihanLab"
+              },
+              {
+                "id": 135,
+                "label": "Kios Terminal",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/kios_terminal.png",
+                "type": "activity",
+                "link": "tagihanKiosTerminal"
+              },
+              {
+                "id": 136,
+                "label": "Limbah",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/limbah.png",
+                "type": "activity",
+                "link": "tagihanLimbah"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 42,
@@ -200,7 +942,33 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/08_perdagangan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/12"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/12",
+        "sub_menu": [
+          {
+            "id": 43,
+            "label": "Info Bahan Pokok",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bapok.png",
+            "type": "activity",
+            "link": "infoBahanPokok",
+            "web_link": "/layanan/perdagangan/infobapok"
+          },
+          {
+            "id": 58,
+            "label": "Bantul Mapan",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bantul-mapan.png",
+            "type": "webview",
+            "link": "bantulMapan",
+            "web_link": "https://bantulmapan.bantulkab.go.id/"
+          },
+          {
+            "id": 44,
+            "label": "Bantul Online Shop",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bos.png",
+            "type": "webview",
+            "link": "bos",
+            "web_link": "https://bos.bantulkab.go.id/id"
+          }
+        ]
       },
       {
         "id": 45,
@@ -208,7 +976,107 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pariwisata.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/09_pariwisata.png",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/13"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/13",
+        "sub_menu": [
+          {
+            "id": 46,
+            "label": "Jelajah Bantul",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/jelajah_bantul.png",
+            "type": "activity",
+            "link": "/layanan/pariwisata/jelajahbantul",
+            "web_link": "/jelajah",
+            "sub_menu": [
+              {
+                "id": 101,
+                "label": "Beli Tiket Wisata",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/ticket.png",
+                "type": "activity",
+                "link": "beliTiket",
+                "web_link": "/jelajah"
+              },
+              {
+                "id": 102,
+                "label": "Destinasi Wisata",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/destinasi.png",
+                "type": "activity",
+                "link": "destinasiWisata",
+                "web_link": "/jelajah"
+              },
+              {
+                "id": 103,
+                "label": "Akomodasi Wisata",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/akomodasi.png",
+                "type": "activity",
+                "link": "akomodasiWisata",
+                "web_link": "/jelajah"
+              },
+              {
+                "id": 104,
+                "label": "Agen Perjalanan",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/agen.png",
+                "type": "activity",
+                "link": "agenPerjalanan",
+                "web_link": "/jelajah"
+              },
+              {
+                "id": 105,
+                "label": "Pemandu Wisata",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/pemandu.png",
+                "type": "activity",
+                "link": "pemandu",
+                "web_link": "/jelajah"
+              },
+              {
+                "id": 106,
+                "label": "Kuliner",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/kuliner.png",
+                "type": "activity",
+                "link": "kuliner",
+                "web_link": "/jelajah"
+              },
+              {
+                "id": 107,
+                "label": "Belanja",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/belanja.png",
+                "type": "activity",
+                "link": "belanja",
+                "web_link": "/jelajah"
+              },
+              {
+                "id": 108,
+                "label": "Kerajinan",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/kerajinan.png",
+                "type": "activity",
+                "link": "kerajinan",
+                "web_link": "/jelajah"
+              },
+              {
+                "id": 109,
+                "label": "Seni Budaya",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/seni.png",
+                "type": "activity",
+                "link": "seniBudaya",
+                "web_link": "/jelajah"
+              },
+              {
+                "id": 110,
+                "label": "Video Wisata",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/jelajah_bantul.png",
+                "type": "activity",
+                "link": "videoWisata",
+                "web_link": "/jelajah"
+              },
+              {
+                "id": 111,
+                "label": "Fasilitas Umum",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/info.png",
+                "type": "activity",
+                "link": "fasilitasUmum",
+                "web_link": "/jelajah"
+              }
+            ]
+          }
+        ]
       },
       {
         "id": 47,
@@ -216,7 +1084,25 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan.png",
         "type": "submenu",
         "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/10_penanda_keistimewaan.json",
-        "web_link": "https://api.bantulkab.go.id/api/v3/menus/14"
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/14",
+        "sub_menu": [
+          {
+            "id": 49,
+            "label": "Makam Kotagede",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan/makam_kotagede.png",
+            "type": "webview",
+            "link": "makamImogiri",
+            "web_link": "https://makamkotagede.bantulkab.go.id/"
+          },
+          {
+            "id": 48,
+            "label": "Makam Imogiri",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan/makam_imogiri.png",
+            "type": "webview",
+            "link": "makamKotagede",
+            "web_link": "https://makamimogiri.bantulkab.go.id/"
+          }
+        ]
       },
       {
         "id": 60,
@@ -229,7 +1115,7 @@
       {
         "id": 50,
         "label": "Sedata Sebantul",
-        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/satu_dadta.png",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/satu_data.png",
         "type": "webview",
         "link": "https://data.bantulkab.go.id/",
         "web_link": "https://data.bantulkab.go.id/"
@@ -239,7 +1125,7 @@
         "label": "GSB Bantul",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/gsb_bantul.png",
         "type": "webview",
-        "link": "https://gsb.bantulkab.go.id/",
+        "link": "/gsb",
         "web_link": "https://gsb.bantulkab.go.id/"
       },
       {
@@ -247,7 +1133,7 @@
         "label": "Hubungi Kami",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hubungi_kami.png",
         "type": "activity",
-        "link": "/hubungi-kami",
+        "link": "/hubungiKami",
         "web_link": "/hubungikami"
       },
       {
@@ -255,7 +1141,7 @@
         "label": "Lapor Bantul",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/lapor_bantul.png",
         "type": "webview",
-        "link": "https://www.lapor.go.id/",
+        "link": "/lapor",
         "web_link": "https://www.lapor.go.id/"
       }
     ]
@@ -278,7 +1164,7 @@
         "label": "Bantara",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/bantara.png",
         "type": "activity",
-        "link": "https://bantara.bantulkab.go.id/",
+        "link": "/bantara",
         "web_link": "https://bantara.bantulkab.go.id/"
       },
       {
@@ -286,7 +1172,7 @@
         "label": "Presensi",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/presensi.webp",
         "type": "webview",
-        "link": "https://play.google.com/store/apps/details?id=dmi.presensibantul&hl=id",
+        "link": "/presensi",
         "web_link": "https://play.google.com/store/apps/details?id=dmi.presensibantul&hl=id"
       },
       {
@@ -294,7 +1180,7 @@
         "label": "eKinerja",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/e_kinerja.png",
         "type": "webview",
-        "link": "https://kinerja.bkn.go.id/",
+        "link": "/ekinerja",
         "web_link": "https://kinerja.bkn.go.id/"
       }
     ]

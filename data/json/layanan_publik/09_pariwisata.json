@@ -16,7 +16,7 @@
           "label": "Beli Tiket Wisata",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/ticket.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/tiket",
+          "link": "beliTiket",
           "web_link": "/jelajah"
         },
         {
@@ -24,7 +24,7 @@
           "label": "Destinasi Wisata",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/destinasi.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/destinasi",
+          "link": "destinasiWisata",
           "web_link": "/jelajah"
         },
         {
@@ -32,7 +32,7 @@
           "label": "Akomodasi Wisata",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/akomodasi.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/akomodasi",
+          "link": "akomodasiWisata",
           "web_link": "/jelajah"
         },
         {
@@ -40,7 +40,7 @@
           "label": "Agen Perjalanan",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/agen.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/agen",
+          "link": "agenPerjalanan",
           "web_link": "/jelajah"
         },
         {
@@ -48,7 +48,7 @@
           "label": "Pemandu Wisata",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/pemandu.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/pemandu",
+          "link": "pemandu",
           "web_link": "/jelajah"
         },
         {
@@ -56,7 +56,7 @@
           "label": "Kuliner",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/kuliner.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/kuliner",
+          "link": "kuliner",
           "web_link": "/jelajah"
         },
         {
@@ -64,7 +64,7 @@
           "label": "Belanja",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/belanja.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/belanja",
+          "link": "belanja",
           "web_link": "/jelajah"
         },
         {
@@ -72,7 +72,7 @@
           "label": "Kerajinan",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/kerajinan.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/kerajinan",
+          "link": "kerajinan",
           "web_link": "/jelajah"
         },
         {
@@ -80,7 +80,7 @@
           "label": "Seni Budaya",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/seni.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/seni",
+          "link": "seniBudaya",
           "web_link": "/jelajah"
         },
         {
@@ -88,7 +88,7 @@
           "label": "Video Wisata",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/jelajah_bantul.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/video",
+          "link": "videoWisata",
           "web_link": "/jelajah"
         },
         {
@@ -96,7 +96,7 @@
           "label": "Fasilitas Umum",
           "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/info.png",
           "type": "activity",
-          "link": "/layanan/pariwisata/jelajahbantul/info",
+          "link": "fasilitasUmum",
           "web_link": "/jelajah"
         }
       ]

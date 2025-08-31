@@ -8,7 +8,7 @@
       "label": "Agenda Perangkat Daerah",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/agenda.png",
       "type": "activity",
-      "link": "/layanan/pemerintahan/agenda",
+      "link": "agendaPerangkatDaerah",
       "web_link": "/layanan/pemerintahan/agenda"
     },
     {
@@ -16,7 +16,7 @@
       "label": "SINOMAN",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sinoman.png",
       "type": "webview",
-      "link": "https://sinoman.bantulkab.go.id/",
+      "link": "sinoman",
       "web_link": "https://sinoman.bantulkab.go.id/"
     },
     {
@@ -24,7 +24,7 @@
       "label": "CSR",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/csr.png",
       "type": "webview",
-      "link": "https://csr.bantulkab.go.id/",
+      "link": "csr",
       "web_link": "https://csr.bantulkab.go.id/"
     },
     {
@@ -40,7 +40,7 @@
       "label": "SiRUP",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sirup.png",
       "type": "webview",
-      "link": "https://sirup.lkpp.go.id/sirup/rekap/klpd/D68",
+      "link": "sirup",
       "web_link": "https://sirup.lkpp.go.id/sirup/rekap/klpd/D68"
     },
     {
@@ -48,7 +48,7 @@
       "label": "SAPA ASN",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sapa.png",
       "type": "webview",
-      "link": "https://asn.bantulkab.go.id/",
+      "link": "sapaAsn",
       "web_link": "https://asn.bantulkab.go.id/"
     },
     {
@@ -56,7 +56,7 @@
       "label": "INAPROC",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/inaproc.png",
       "type": "webview",
-      "link": "https://spse.inaproc.id/bantulkab",
+      "link": "lpse",
       "web_link": "https://spse.inaproc.id/bantulkab"
     },
     {
@@ -64,7 +64,7 @@
       "label": "Buku Tamu",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/buku_tamu.png",
       "type": "activity",
-      "link": "/layanan/pemerintahan/bukutamu",
+      "link": "bukuTamu",
       "web_link": "/layanan/pemerintahan/bukutamu"
     },
     {
@@ -72,7 +72,7 @@
       "label": "Reservasi Kunjungan",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/kunjungan.png",
       "type": "activity",
-      "link": "/layanan/pemerintahan/reservasi",
+      "link": "reservasiKunjungan",
       "web_link": "/layanan/pemerintahan/reservasi"
     },
     {
@@ -80,7 +80,7 @@
       "label": "IPKD",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ipkd.png",
       "type": "activity",
-      "link": "/layanan/pemerintahan/ipkd",
+      "link": "ipkd",
       "web_link": "/layanan/pemerintahan/ipkd"
     },
     {
@@ -88,7 +88,7 @@
       "label": "Reservasi Ruangan",
       "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ruangan.png",
       "type": "activity",
-      "link": "/layanan/pemerintahan/booking",
+      "link": "reservasiRuangan",
       "web_link": "/layanan/pemerintahan/booking"
     }
   ]
