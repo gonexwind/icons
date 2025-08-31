@@ -64,7 +64,7 @@
         "id": 99,
         "label": "Lihat Semua",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/more.png",
-        "type": "parent",
+        "type": "more",
         "link": "https://api.bantulkab.go.id/api/v3/menus/12",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/12"
       }
