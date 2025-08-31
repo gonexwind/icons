@@ -1108,7 +1108,7 @@
           {
             "id": 132,
             "label": "GIS Irigasi",
-            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pertanian/irigasi_smart.png",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pertanian/irigasi.png",
             "type": "webview",
             "link": "irigasi",
             "web_link": "https://webgisirigasi.bantulkab.go.id"
