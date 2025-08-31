@@ -515,7 +515,7 @@
       {
         "id": 130,
         "label": "E-Sejada",
-        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_events.png",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/esejada.png",
         "type": "webview",
         "link": "/esejada",
         "web_link": "https://bantulkab.go.id/esejada.html"
