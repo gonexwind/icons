@@ -9,7 +9,6 @@
         "label": "Kependudukan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/01_kependudukan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/5",
         "sub_menu": [
           {
@@ -27,7 +26,6 @@
         "label": "Kesehatan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/03_kesehatan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/7",
         "sub_menu": [
           {
@@ -122,7 +120,6 @@
         "label": "Pajak & Retribusi",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak_retribusi.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/07_pajak_retribusi.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/11",
         "sub_menu": [
           {
@@ -253,7 +250,6 @@
         "label": "Pemerintahan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/04_pemerintahan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/8",
         "sub_menu": [
           {
@@ -351,7 +347,6 @@
         "label": "Penanaman Modal",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/06_penanaman_modal.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/10",
         "sub_menu": [
           {
@@ -385,7 +380,6 @@
         "label": "Pendidikan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/02_pendidikan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/6",
         "sub_menu": [
           {
@@ -419,7 +413,6 @@
         "label": "Perdagangan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/08_perdagangan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/12",
         "sub_menu": [
           {
@@ -518,6 +511,14 @@
         "type": "activity",
         "link": "/bantulEvent",
         "web_link": "/event"
+      },
+      {
+        "id": 130,
+        "label": "E-Sejada",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_events.png",
+        "type": "webview",
+        "link": "/esejada",
+        "web_link": "https://bantulkab.go.id/esejada.html"
       }
     ]
   },
@@ -531,7 +532,6 @@
         "label": "Kependudukan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/01_kependudukan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/5",
         "sub_menu": [
           {
@@ -549,7 +549,6 @@
         "label": "Pendidikan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/02_pendidikan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/6",
         "sub_menu": [
           {
@@ -583,7 +582,6 @@
         "label": "Kesehatan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/03_kesehatan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/7",
         "sub_menu": [
           {
@@ -660,7 +658,8 @@
                 "label": "Info Kamar",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
                 "type": "webview",
-                "link": "infoBedRsud"
+                "link": "infoBedRsud",
+                "web_link": "https://rsudps.bantulkab.go.id/api/infobed/data",
               },
               {
                 "id": 120,
@@ -678,7 +677,6 @@
         "label": "Pemerintahan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/04_pemerintahan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/8",
         "sub_menu": [
           {
@@ -776,7 +774,6 @@
         "label": "Hukum",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/05_hukum.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/9",
         "sub_menu": [
           {
@@ -802,7 +799,6 @@
         "label": "Penanaman Modal",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/06_penanaman_modal.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/10",
         "sub_menu": [
           {
@@ -836,7 +832,6 @@
         "label": "Pajak & Retribusi",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak_retribusi.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/07_pajak_retribusi.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/11",
         "sub_menu": [
           {
@@ -967,7 +962,6 @@
         "label": "Perdagangan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/08_perdagangan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/12",
         "sub_menu": [
           {
@@ -1016,9 +1010,9 @@
                 "id": 101,
                 "label": "Beli Tiket Wisata",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/ticket.png",
-                "type": "activity",
+                "type": "webview",
                 "link": "beliTiket",
-                "web_link": "/jelajah"
+                "web_link": "https://bantul-ticket.rama.web.id"
               },
               {
                 "id": 102,
@@ -1105,11 +1099,27 @@
         ]
       },
       {
+        "id": 131,
+        "label": "Pertanian",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pertanian.png",
+        "type": "submenu",
+        "web_link": "https://api.bantulkab.go.id/api/v3/menus/5",
+        "sub_menu": [
+          {
+            "id": 132,
+            "label": "GIS Irigasi",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pertanian/irigasi_smart.png",
+            "type": "webview",
+            "link": "irigasi",
+            "web_link": "https://webgisirigasi.bantulkab.go.id"
+          }
+        ]
+      },
+      {
         "id": 47,
         "label": "Penanda Keistimewaan",
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan.png",
         "type": "submenu",
-        "link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/json/layanan_publik/10_penanda_keistimewaan.json",
         "web_link": "https://api.bantulkab.go.id/api/v3/menus/14",
         "sub_menu": [
           {
