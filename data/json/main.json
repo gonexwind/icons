@@ -850,7 +850,7 @@
                 "icon": "https://bantulkab.go.id/resource/doc/images/bantulpediaicon/pajakda.png",
                 "type": "webview",
                 "link": "pajakda",
-                "web_link": "https://pajakda.bantulkab.go.id/apps/public/index"
+                "web_link": "https://pajakda.bantulkab.go.id/"
               },
               {
                 "id": 122,
@@ -1168,7 +1168,7 @@
         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/lapor_bantul.png",
         "type": "webview",
         "link": "/lapor",
-        "web_link": "https://www.lapor.go.id/"
+        "web_link": "https://prod.lapor.go.id/"
       }
     ]
   },
