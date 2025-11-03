@@ -1236,11 +1236,10 @@
                 "id": 59,
                 "label": "Esurat",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/esurat.png",
-                "type": "webview",
-                "view": "browser",
+                "type": "activity",
                 "keywords": "Surban|esurat|diposisi|surat|agenda kegiatan|mail",
                 "link": "/surban",
-                "web_link": "https://esurat.bantulkab.go.id/login"
+                "web_link": "/surban"
             },
             {
                 "id": 98,
