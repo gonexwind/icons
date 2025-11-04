@@ -413,6 +413,7 @@
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
                         "type": "webview",
                         "link": "perpus",
+                        "view": "browser",
                         "web_link": "https://perpusda.bantulkab.go.id/"
                     }
                 ]
@@ -594,6 +595,7 @@
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
                         "type": "webview",
                         "link": "perpus",
+                        "view": "browser",
                         "web_link": "https://perpusda.bantulkab.go.id/"
                     }
                 ]
@@ -1256,6 +1258,7 @@
                 "label": "Presensi",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/presensi.webp",
                 "type": "webview",
+                "view": "browser",
                 "keywords": "Presensi|absen|kehadiran|kepegawaian|asn|pppk|aparatur sipil negara",
                 "link": "https://apps.apple.com/app/id6451241529",
                 "web_link": "https://play.google.com/store/apps/details?id=dmi.presensibantul"
@@ -1266,6 +1269,7 @@
                 "keywords": "e-kinerja|kepegawaian|penilaian|asn|pppk|aparatur sipil negara|digital",
                 "icon": "https://asndigital.bkn.go.id/images/logo-bkn.png",
                 "type": "webview",
+                "view": "browser",
                 "link": "/asnDigital",
                 "web_link": "https://asndigital.bkn.go.id"
             }
