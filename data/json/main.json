@@ -411,7 +411,7 @@
                         "id": 97,
                         "label": "Bantul Pinter",
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
-                        "type": "webview",
+                        "type": "browser",
                         "link": "perpus",
                         "view": "browser",
                         "web_link": "https://perpusda.bantulkab.go.id/"
@@ -558,7 +558,7 @@
                         "id": 7,
                         "label": "Dukcapil Smart",
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan/dukcapil_smart.png",
-                        "type": "webview",
+                        "type": "browser",
                         "link": "dukcapilSmart",
                         "view": "browser",
                         "web_link": "https://dukcapilonline.bantulkab.go.id/"
@@ -593,7 +593,7 @@
                         "id": 97,
                         "label": "Bantul Pinter",
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
-                        "type": "webview",
+                        "type": "browser",
                         "link": "perpus",
                         "view": "browser",
                         "web_link": "https://perpusda.bantulkab.go.id/"
@@ -1247,7 +1247,7 @@
                 "id": 98,
                 "label": "Bantara",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/bantara.png",
-                "type": "webview",
+                "type": "browser",
                 "view": "browser",
                 "keywords": "bantara|tte|tanda tangan elektronik|e-lektronik|Surban|esurat|diposisi|surat|agenda kegiatan|",
                 "link": "/bantara",
@@ -1257,7 +1257,7 @@
                 "id": 68,
                 "label": "Presensi",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/presensi.webp",
-                "type": "webview",
+                "type": "browser",
                 "view": "browser",
                 "keywords": "Presensi|absen|kehadiran|kepegawaian|asn|pppk|aparatur sipil negara",
                 "link": "https://apps.apple.com/app/id6451241529",
@@ -1268,7 +1268,7 @@
                 "label": "ASN Digital",
                 "keywords": "e-kinerja|kepegawaian|penilaian|asn|pppk|aparatur sipil negara|digital",
                 "icon": "https://asndigital.bkn.go.id/images/logo-bkn.png",
-                "type": "webview",
+                "type": "browser",
                 "view": "browser",
                 "link": "/asnDigital",
                 "web_link": "https://asndigital.bkn.go.id"
