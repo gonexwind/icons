@@ -135,7 +135,7 @@
                             {
                                 "id": 118,
                                 "label": "Daftar Poli",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan//Users/fikkyardianto/Downloads/daftar-poli.png",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/daftar-poli.png",
                                 "type": "activity",
                                 "link": "daftarPoliRssa"
                             },
