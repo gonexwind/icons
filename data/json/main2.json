@@ -28,7 +28,7 @@
                 "label": "Kesehatan",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan.png",
                 "type": "submenu",
-                "keywords": "Kesehatan|stunting|rumah sakit|daftar|pendaftaran|status|verifikasi|pasien|status|rsud|panembahan|kamar|info|cari dokter|saras|puskesmas|hamil",
+                "keywords": "Kesehatan|stunting|rumah sakit|daftar|pendaftaran|status|verifikasi|pasien|status|rsud|panembahan|kamar|info|cari dokter|saras|puskesmas|hamil|rssa|saras adyatma|antrean|poli|farmasi",
                 "web_link": "https://api.bantulkab.go.id/api/v3/menus/7",
                 "sub_menu": [
                     {
@@ -69,21 +69,21 @@
                         "sub_menu": [
                             {
                                 "id": 25,
-                                "label": "Pendaftaran Pasien",
+                                "label": "Pendaftaran\nPasien",
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/register.png",
                                 "type": "activity",
                                 "link": "pendaftaranPasienRsud"
                             },
                             {
                                 "id": 117,
-                                "label": "Verifikasi Pasien",
+                                "label": "Verifikasi\nPasien",
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/verif.png",
                                 "type": "activity",
                                 "link": "verifikasiPasienRsud"
                             },
                             {
                                 "id": 118,
-                                "label": "Status Pendaftaran",
+                                "label": "Status\nPendaftaran",
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
                                 "type": "activity",
                                 "link": "statusPasienRsud"
@@ -658,39 +658,33 @@
                 "label": "Kesehatan",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan.png",
                 "type": "submenu",
-                "keywords": "Kesehatan|stunting|rumah sakit|daftar|pendaftaran|status|verifikasi|pasien|status|rsud|panembahan|kamar|info|cari dokter|saras|puskesmas|hamil|",
+                "keywords": "Kesehatan|stunting|rumah sakit|daftar|pendaftaran|status|verifikasi|pasien|status|rsud|panembahan|kamar|info|cari dokter|saras|puskesmas|hamil|rssa|saras adyatma|antrean|poli|farmasi",
                 "web_link": "https://api.bantulkab.go.id/api/v3/menus/7",
                 "sub_menu": [
                     {
-                        "id": 112,
-                        "label": "Informasi",
-                        "type": "parent",
-                        "sub_menu": [
-                            {
-                                "id": 79,
-                                "label": "Dashboard Stunting",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/stunting.png",
-                                "type": "webview",
-                                "link": "/informasiStunting",
-                                "web_link": "https://lookerstudio.google.com/embed/reporting/7cf94441-f9ff-412b-9856-3de6ffb6418e/page/p_cl009ilfrd"
-                            }
-                        ]
+                        "id": 79,
+                        "label": "Dashboard Stunting",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/stunting.png",
+                        "type": "webview",
+                        "link": "/informasiStunting",
+                        "web_link": "https://lookerstudio.google.com/embed/reporting/7cf94441-f9ff-412b-9856-3de6ffb6418e/page/p_cl009ilfrd"
                     },
                     {
                         "id": 113,
                         "label": "Puskesmas",
-                        "type": "parent",
+                        "type": "submenu",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/puskesmas.png",
                         "sub_menu": [
                             {
                                 "id": 114,
-                                "label": "Pendaftaran Pasien",
+                                "label": "Pendaftaran\nPasien",
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/register.png",
                                 "type": "activity",
                                 "link": "pendaftaranPasienPuskesmas"
                             },
                             {
                                 "id": 115,
-                                "label": "Status Pendaftaran",
+                                "label": "Status\nPendaftaran",
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
                                 "type": "activity",
                                 "link": "statusPendaftaranPuskesmas"
@@ -700,25 +694,26 @@
                     {
                         "id": 116,
                         "label": "RSUD Panembahan Senopati",
-                        "type": "parent",
+                        "type": "submenu",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/rsudps.png",
                         "sub_menu": [
                             {
                                 "id": 25,
-                                "label": "Pendaftaran Pasien",
+                                "label": "Pendaftaran\nPasien",
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/register.png",
                                 "type": "activity",
                                 "link": "pendaftaranPasienRsud"
                             },
                             {
                                 "id": 117,
-                                "label": "Verifikasi Pasien",
+                                "label": "Verifikasi\nPasien",
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/verif.png",
                                 "type": "activity",
                                 "link": "verifikasiPasienRsud"
                             },
                             {
                                 "id": 118,
-                                "label": "Status Pendaftaran",
+                                "label": "Status\nPendaftaran",
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
                                 "type": "activity",
                                 "link": "statusPasienRsud"
@@ -733,7 +728,7 @@
                             {
                                 "id": 24,
                                 "label": "Info Kamar",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/status.png",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/bed.png",
                                 "type": "webview",
                                 "link": "infoBedRsud",
                                 "web_link": "https://rsudps.bantulkab.go.id/api/infobed/data"
@@ -744,6 +739,64 @@
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/dokter.png",
                                 "type": "activity",
                                 "link": "cariDokterRsud"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 116,
+                        "label": "RSUD Saras Adyatma",
+                        "type": "submenu",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/rssa.png",
+                        "sub_menu": [
+                            {
+                                "id": 25,
+                                "label": "Pendaftaran\nPasien",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/register.png",
+                                "type": "activity",
+                                "link": "pendaftaranPasienRssa"
+                            },
+                            {
+                                "id": 117,
+                                "label": "Cek Antrean\nPasien",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/verif.png",
+                                "type": "activity",
+                                "link": "antreanPasienRssa"
+                            },
+                            {
+                                "id": 118,
+                                "label": "Daftar Poli",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/daftar-poli.png",
+                                "type": "activity",
+                                "link": "daftarPoliRssa"
+                            },
+                            {
+                                "id": 119,
+                                "label": "Jadwal Dokter",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/dokter.png",
+                                "type": "activity",
+                                "link": "jadwalDokterRssa"
+                            },
+                            {
+                                "id": 120,
+                                "label": "Antrean Poli",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/antrean-poli.png",
+                                "type": "activity",
+                                "link": "antreanPoliRssa"
+                            },
+                            {
+                                "id": 120,
+                                "label": "Antrean Farmasi",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/obat.png",
+                                "type": "activity",
+                                "link": "antreanFarmasiRssa"
+                            },
+                            {
+                                "id": 24,
+                                "label": "Info Kamar",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/bed.png",
+                                "type": "webview",
+                                "link": "infoBedRssa",
+                                "web_link": "https://sarasadyatma.com/ad_display/ketersediaan_kamar"
                             }
                         ]
                     }
