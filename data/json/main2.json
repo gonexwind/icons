@@ -1135,6 +1135,14 @@
                 ]
             },
             {
+                "id": 42,
+                "label": "Satriya KDMP Bantul",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kdmp.png",
+                "keywords": "kdmp|koperasi desa merah putih",
+                "type": "activity",
+                "link": "kdmp"
+            },
+            {
                 "id": 45,
                 "label": "Pariwisata",
                 "keywords": "Pariwisata|jelajah bantul|destinasi wisata|akomodasi|agen perjalanan|pemandu|kuliner|belanja|kerajinan|seni budaya|video|fasilitas umum|jalan-jalan|desa|beli tiket|",
