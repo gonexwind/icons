@@ -808,7 +808,7 @@
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/jdih_dprd.png",
                         "type": "webview",
                         "link": "jdihDprd",
-                        "web_link": "https://jdih-dprd.bantulkab.go.id/"
+                        "web_link": "https://jdih-dprd.bantulkab.go.id/produkhukum.html"
                     },
                     {
                         "id": 27,

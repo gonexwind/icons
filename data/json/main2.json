@@ -464,7 +464,7 @@
                         "id": 97,
                         "label": "Bantul Pinter",
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
-                        "type": "browser",
+                        "type": "activity",
                         "link": "perpus",
                         "view": "browser",
                         "web_link": "https://perpusda.bantulkab.go.id/"
@@ -646,7 +646,7 @@
                         "id": 97,
                         "label": "Bantul Pinter",
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
-                        "type": "browser",
+                        "type": "activity",
                         "link": "perpus",
                         "view": "browser",
                         "web_link": "https://perpusda.bantulkab.go.id/"
