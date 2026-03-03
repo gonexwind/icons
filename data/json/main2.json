@@ -292,7 +292,7 @@
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sirup.png",
                         "type": "webview",
                         "link": "sirup",
-                        "web_link": "https://sirup.lkpp.go.id/sirup/rekap/klpd/D68"
+                        "web_link": "https://sirup.inaproc.go.id/sirup/rekap/klpd/D68"
                     },
                     {
                         "id": 65,
@@ -732,7 +732,7 @@
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sirup.png",
                         "type": "webview",
                         "link": "sirup",
-                        "web_link": "https://sirup.lkpp.go.id/sirup/rekap/klpd/D68"
+                        "web_link": "https://sirup.inaproc.go.id/sirup/rekap/klpd/D68"
                     },
                     {
                         "id": 65,
