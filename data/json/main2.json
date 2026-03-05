@@ -111,6 +111,64 @@
                                 "link": "cariDokterRsud"
                             }
                         ]
+                    },
+                    {
+                        "id": 116,
+                        "label": "RSUD Saras Adyatma",
+                        "type": "submenu",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/rssa.png",
+                        "sub_menu": [
+                            {
+                                "id": 25,
+                                "label": "Pendaftaran\nPasien",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/register.png",
+                                "type": "activity",
+                                "link": "pendaftaranPasienRssa"
+                            },
+                            {
+                                "id": 117,
+                                "label": "Cek Antrean\nPasien",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/verif.png",
+                                "type": "activity",
+                                "link": "antreanPasienRssa"
+                            },
+                            {
+                                "id": 118,
+                                "label": "Daftar Poli",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/daftar-poli.png",
+                                "type": "activity",
+                                "link": "daftarPoliRssa"
+                            },
+                            {
+                                "id": 119,
+                                "label": "Jadwal Dokter",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/dokter.png",
+                                "type": "activity",
+                                "link": "jadwalDokterRssa"
+                            },
+                            {
+                                "id": 120,
+                                "label": "Antrean Poli",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/antrean-poli.png",
+                                "type": "activity",
+                                "link": "antreanPoliRssa"
+                            },
+                            {
+                                "id": 120,
+                                "label": "Antrean Farmasi",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/obat.png",
+                                "type": "activity",
+                                "link": "antreanFarmasiRssa"
+                            },
+                            {
+                                "id": 24,
+                                "label": "Info Kamar",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/bed.png",
+                                "type": "webview",
+                                "link": "infoBedRssa",
+                                "web_link": "https://sarasadyatma.com/ad_display/ketersediaan_kamar"
+                            }
+                        ]
                     }
                 ]
             },
@@ -681,6 +739,64 @@
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/dokter.png",
                                 "type": "activity",
                                 "link": "cariDokterRsud"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 116,
+                        "label": "RSUD Saras Adyatma",
+                        "type": "submenu",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/rssa.png",
+                        "sub_menu": [
+                            {
+                                "id": 25,
+                                "label": "Pendaftaran\nPasien",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/register.png",
+                                "type": "activity",
+                                "link": "pendaftaranPasienRssa"
+                            },
+                            {
+                                "id": 117,
+                                "label": "Cek Antrean\nPasien",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/verif.png",
+                                "type": "activity",
+                                "link": "antreanPasienRssa"
+                            },
+                            {
+                                "id": 118,
+                                "label": "Daftar Poli",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/daftar-poli.png",
+                                "type": "activity",
+                                "link": "daftarPoliRssa"
+                            },
+                            {
+                                "id": 119,
+                                "label": "Jadwal Dokter",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/dokter.png",
+                                "type": "activity",
+                                "link": "jadwalDokterRssa"
+                            },
+                            {
+                                "id": 120,
+                                "label": "Antrean Poli",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/antrean-poli.png",
+                                "type": "activity",
+                                "link": "antreanPoliRssa"
+                            },
+                            {
+                                "id": 120,
+                                "label": "Antrean Farmasi",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/obat.png",
+                                "type": "activity",
+                                "link": "antreanFarmasiRssa"
+                            },
+                            {
+                                "id": 24,
+                                "label": "Info Kamar",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/bed.png",
+                                "type": "webview",
+                                "link": "infoBedRssa",
+                                "web_link": "https://sarasadyatma.com/ad_display/ketersediaan_kamar"
                             }
                         ]
                     }
