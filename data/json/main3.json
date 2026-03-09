@@ -1370,7 +1370,7 @@
             {
                 "id": 68,
                 "label": "Presensi",
-                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/presensi.webp",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/presensi.png",
                 "type": "browser",
                 "view": "browser",
                 "keywords": "Presensi|absen|kehadiran|kepegawaian|asn|pppk|aparatur sipil negara",
@@ -1386,6 +1386,16 @@
                 "view": "browser",
                 "link": "/asnDigital",
                 "web_link": "https://asndigital.bkn.go.id"
+            },
+            {
+                "id": 69,
+                "label": "Bantul Corpu",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/corpu.png",
+                "type": "browser",
+                "view": "browser",
+                "keywords": "bantul corporate university|corpu|pelatihan|diklat|training|e-learning|asn|pppk|aparatur sipil negara|pembelajaran",
+                "link": "https://apps.apple.com/id/app/bantul-corpu/id6753782746",
+                "web_link": "https://play.google.com/store/apps/details?id=id.go.bantulkab.lms"
             }
         ]
     }
