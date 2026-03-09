@@ -2,6 +2,14 @@
     "data": [
         {
             "id": 42,
+            "label": "MAL Pelayanan Publik",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/mpp.png",
+            "keywords": "mpp|mal pelayanan publik",
+            "type": "activity",
+            "link": "mpp"
+        },
+        {
+            "id": 42,
             "label": "SATRIYA\nKDMP Bantul",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kdmp.png",
             "keywords": "kdmp|koperasi desa merah putih",
@@ -65,15 +73,6 @@
                     "web_link": "https://sarasadyatma.com/ad_display/ketersediaan_kamar"
                 }
             ]
-        },
-        {
-            "id": 97,
-            "label": "Bantul Pinter",
-            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
-            "type": "activity",
-            "link": "perpus",
-            "view": "browser",
-            "web_link": "https://perpusda.bantulkab.go.id/"
         },
         {
             "id": 59,
