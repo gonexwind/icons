@@ -2,7 +2,7 @@
     {
         "category_name": "Home",
         "category_desc": "Home",
-        "category_banner_url": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/banner/lebaran.png",
+        "category_banner_url": "",
         "sub_menu": [
             {
                 "id": 19,
