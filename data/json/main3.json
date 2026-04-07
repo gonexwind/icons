@@ -1350,7 +1350,7 @@
         "sub_menu": [
             {
                 "id": 59,
-                "label": "Esurat",
+                "label": "Surban",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/esurat.png",
                 "type": "activity",
                 "keywords": "Surban|esurat|diposisi|surat|agenda kegiatan|mail",
