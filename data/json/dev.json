@@ -244,6 +244,13 @@
                                 "link": "bayarRetribusi"
                             },
                             {
+                                "id": 128,
+                                "label": "Riwayat",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/history.png",
+                                "type": "activity",
+                                "link": "riwayatRetribusi"
+                            },
+                            {
                                 "id": 129,
                                 "label": "Realisasi",
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/realisasi_retribusi.png",
@@ -1038,6 +1045,13 @@
                                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/bayar.png",
                                 "type": "activity",
                                 "link": "bayarRetribusi"
+                            },
+                            {
+                                "id": 128,
+                                "label": "Riwayat",
+                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/history.png",
+                                "type": "activity",
+                                "link": "riwayatRetribusi"
                             },
                             {
                                 "id": 129,
