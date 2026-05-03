@@ -1,6 +1,14 @@
 {
     "data": [
         {
+            "id": 24,
+            "label": "BFR 2026",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/banner/bfr.png",
+            "type": "webview",
+            "link": "bfr",
+            "web_link": "https://www.instagram.com/bantul.run"
+        },
+        {
             "id": 42,
             "label": "SATRIYA\nKDMP Bantul",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kdmp.png",
@@ -65,15 +73,6 @@
                     "web_link": "https://sarasadyatma.com/ad_display/ketersediaan_kamar"
                 }
             ]
-        },
-        {
-            "id": 97,
-            "label": "Bantul Pinter",
-            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
-            "type": "activity",
-            "link": "perpus",
-            "view": "browser",
-            "web_link": "https://perpusda.bantulkab.go.id/"
         },
         {
             "id": 59,
