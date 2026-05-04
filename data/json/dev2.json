@@ -1157,6 +1157,14 @@
                 "link": "kdmp"
             },
             {
+                "id": 42,
+                "label": "MAL Pelayanan Publik",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/mpp.png",
+                "keywords": "mpp|mal pelayanan publik",
+                "type": "activity",
+                "link": "mpp"
+            },
+            {
                 "id": 45,
                 "label": "Pariwisata",
                 "keywords": "Pariwisata|jelajah bantul|destinasi wisata|akomodasi|agen perjalanan|pemandu|kuliner|belanja|kerajinan|seni budaya|video|fasilitas umum|jalan-jalan|desa|beli tiket|",
