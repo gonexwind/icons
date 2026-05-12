@@ -427,7 +427,15 @@
                     },
                     {
                         "id": 33,
-                        "label": "Lantip",
+                        "label": "Izin Online",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/bantul.png",
+                        "type": "webview",
+                        "link": "izinonline",
+                        "web_link": "https://izinonline.bantulkab.go.id/"
+                    },
+                    {
+                        "id": 33,
+                        "label": "Monitoring Izin",
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/lantip.png",
                         "type": "activity",
                         "link": "lantip",
@@ -959,7 +967,15 @@
                     },
                     {
                         "id": 33,
-                        "label": "Lantip",
+                        "label": "Izin Online",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/bantul.png",
+                        "type": "webview",
+                        "link": "izinonline",
+                        "web_link": "https://izinonline.bantulkab.go.id/"
+                    },
+                    {
+                        "id": 33,
+                        "label": "Monitoring Izin",
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/lantip.png",
                         "type": "activity",
                         "link": "lantip",
