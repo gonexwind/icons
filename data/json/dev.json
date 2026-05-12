@@ -8,20 +8,9 @@
                 "id": 19,
                 "label": "Kependudukan",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
-                "type": "submenu",
+                "type": "browser",
                 "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
-                "web_link": "https://api.bantulkab.go.id/api/v3/menus/5",
-                "sub_menu": [
-                    {
-                        "id": 7,
-                        "label": "Dukcapil Smart",
-                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan/dukcapil_smart.png",
-                        "type": "browser",
-                        "view": "browser",
-                        "link": "dukcapilSmart",
-                        "web_link": "https://dukcapilonline.bantulkab.go.id/"
-                    }
-                ]
+                "web_link": "https://dukcapilonline.bantulkab.go.id/"
             },
             {
                 "id": 29,
@@ -618,20 +607,9 @@
                 "id": 19,
                 "label": "Kependudukan",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
-                "type": "submenu",
+                "type": "browser",
                 "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
-                "web_link": "https://api.bantulkab.go.id/api/v3/menus/5",
-                "sub_menu": [
-                    {
-                        "id": 7,
-                        "label": "Dukcapil Smart",
-                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan/dukcapil_smart.png",
-                        "type": "browser",
-                        "link": "dukcapilSmart",
-                        "view": "browser",
-                        "web_link": "https://dukcapilonline.bantulkab.go.id/"
-                    }
-                ]
+                "web_link": "https://dukcapilonline.bantulkab.go.id"
             },
             {
                 "id": 20,
@@ -1182,102 +1160,92 @@
                 "web_link": "https://api.bantulkab.go.id/api/v3/menus/13",
                 "sub_menu": [
                     {
-                        "id": 46,
-                        "label": "Jelajah Bantul",
+                        "id": 101,
+                        "label": "Beli Tiket Wisata",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/ticket.png",
+                        "type": "webview",
+                        "link": "beliTiket",
+                        "web_link": "https://tiketwisata.bantulkab.go.id/"
+                    },
+                    {
+                        "id": 102,
+                        "label": "Destinasi Wisata",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/destinasi.png",
+                        "type": "activity",
+                        "link": "destinasiWisata",
+                        "web_link": "/jelajah"
+                    },
+                    {
+                        "id": 103,
+                        "label": "Akomodasi Wisata",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/akomodasi.png",
+                        "type": "activity",
+                        "link": "akomodasiWisata",
+                        "web_link": "/jelajah"
+                    },
+                    {
+                        "id": 104,
+                        "label": "Agen Perjalanan",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/agen.png",
+                        "type": "activity",
+                        "link": "agenPerjalanan",
+                        "web_link": "/jelajah"
+                    },
+                    {
+                        "id": 105,
+                        "label": "Pemandu Wisata",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/pemandu.png",
+                        "type": "activity",
+                        "link": "pemandu",
+                        "web_link": "/jelajah"
+                    },
+                    {
+                        "id": 106,
+                        "label": "Kuliner",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/kuliner.png",
+                        "type": "activity",
+                        "link": "kuliner",
+                        "web_link": "/jelajah"
+                    },
+                    {
+                        "id": 107,
+                        "label": "Belanja",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/belanja.png",
+                        "type": "activity",
+                        "link": "belanja",
+                        "web_link": "/jelajah"
+                    },
+                    {
+                        "id": 108,
+                        "label": "Kerajinan",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/kerajinan.png",
+                        "type": "activity",
+                        "link": "kerajinan",
+                        "web_link": "/jelajah"
+                    },
+                    {
+                        "id": 109,
+                        "label": "Seni Budaya",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/seni.png",
+                        "type": "activity",
+                        "link": "seniBudaya",
+                        "web_link": "/jelajah"
+                    },
+                    {
+                        "id": 110,
+                        "label": "Video Wisata",
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/jelajah_bantul.png",
-                        "type": "submenu",
-                        "link": "/layanan/pariwisata/jelajahbantul",
-                        "web_link": "/jelajah",
-                        "sub_menu": [
-                            {
-                                "id": 101,
-                                "label": "Beli Tiket Wisata",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/ticket.png",
-                                "type": "webview",
-                                "link": "beliTiket",
-                                "web_link": "https://tiketwisata.bantulkab.go.id/"
-                            },
-                            {
-                                "id": 102,
-                                "label": "Destinasi Wisata",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/destinasi.png",
-                                "type": "activity",
-                                "link": "destinasiWisata",
-                                "web_link": "/jelajah"
-                            },
-                            {
-                                "id": 103,
-                                "label": "Akomodasi Wisata",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/akomodasi.png",
-                                "type": "activity",
-                                "link": "akomodasiWisata",
-                                "web_link": "/jelajah"
-                            },
-                            {
-                                "id": 104,
-                                "label": "Agen Perjalanan",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/agen.png",
-                                "type": "activity",
-                                "link": "agenPerjalanan",
-                                "web_link": "/jelajah"
-                            },
-                            {
-                                "id": 105,
-                                "label": "Pemandu Wisata",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/pemandu.png",
-                                "type": "activity",
-                                "link": "pemandu",
-                                "web_link": "/jelajah"
-                            },
-                            {
-                                "id": 106,
-                                "label": "Kuliner",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/kuliner.png",
-                                "type": "activity",
-                                "link": "kuliner",
-                                "web_link": "/jelajah"
-                            },
-                            {
-                                "id": 107,
-                                "label": "Belanja",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/belanja.png",
-                                "type": "activity",
-                                "link": "belanja",
-                                "web_link": "/jelajah"
-                            },
-                            {
-                                "id": 108,
-                                "label": "Kerajinan",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/kerajinan.png",
-                                "type": "activity",
-                                "link": "kerajinan",
-                                "web_link": "/jelajah"
-                            },
-                            {
-                                "id": 109,
-                                "label": "Seni Budaya",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/seni.png",
-                                "type": "activity",
-                                "link": "seniBudaya",
-                                "web_link": "/jelajah"
-                            },
-                            {
-                                "id": 110,
-                                "label": "Video Wisata",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/jelajah_bantul.png",
-                                "type": "activity",
-                                "link": "videoWisata",
-                                "web_link": "/jelajah"
-                            },
-                            {
-                                "id": 111,
-                                "label": "Fasilitas Umum",
-                                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/info.png",
-                                "type": "activity",
-                                "link": "fasilitasUmum",
-                                "web_link": "/jelajah"
-                            }
-                        ]
+                        "type": "activity",
+                        "link": "videoWisata",
+                        "web_link": "/jelajah"
+                    },
+                    {
+                        "id": 111,
+                        "label": "Fasilitas Umum",
+                        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/info.png",
+                        "type": "activity",
+                        "link": "fasilitasUmum",
+                        "web_link": "/jelajah"
                     }
                 ]
             },
