@@ -489,7 +489,7 @@
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bapok.png",
                         "type": "webview",
                         "link": "infoBahanPokok",
-                        "web_link": "https://sigapan.bantulkab.go.id/tabel-harga"
+                        "web_link": "https://sigapan.bantulkab.go.id/"
                     },
                     {
                         "id": 58,
@@ -1122,7 +1122,7 @@
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bapok.png",
                         "type": "webview",
                         "link": "infoBahanPokok",
-                        "web_link": "https://sigapan.bantulkab.go.id/tabel-harga"
+                        "web_link": "https://sigapan.bantulkab.go.id/"
                     },
                     {
                         "id": 58,
