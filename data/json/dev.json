@@ -489,7 +489,7 @@
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bapok.png",
                         "type": "webview",
                         "link": "infoBahanPokok",
-                        "web_link": "https://sigapan.bantulkab.go.id/tabel-harga"
+                        "web_link": "https://sigapan.bantulkab.go.id/"
                     },
                     {
                         "id": 58,
@@ -1122,7 +1122,7 @@
                         "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bapok.png",
                         "type": "webview",
                         "link": "infoBahanPokok",
-                        "web_link": "https://sigapan.bantulkab.go.id/tabel-harga"
+                        "web_link": "https://sigapan.bantulkab.go.id/"
                     },
                     {
                         "id": 58,
@@ -1149,6 +1149,14 @@
                 "keywords": "kdmp|koperasi desa merah putih",
                 "type": "activity",
                 "link": "kdmp"
+            },
+            {
+                "id": 42,
+                "label": "MAL Pelayanan Publik",
+                "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/mpp.png",
+                "keywords": "mpp|mal pelayanan publik",
+                "type": "activity",
+                "link": "mpp"
             },
             {
                 "id": 45,
