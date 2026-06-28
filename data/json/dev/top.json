@@ -1,0 +1,37 @@
+{
+    "data": [
+        {
+            "id": 42,
+            "label": "MAL Pelayanan Publik",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/mpp.png",
+            "keywords": "mpp|mal pelayanan publik",
+            "type": "activity",
+            "link": "mpp"
+        },
+        {
+            "id": 42,
+            "label": "SIPENTOL",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/sipentol.png",
+            "keywords": "sipentol|sistem informasi manajemen pajak kendaraan bermotor|sistem pendaftaran online",
+            "type": "activity",
+            "link": "simpkb"
+        },
+        {
+            "id": 42,
+            "label": "SATRIYA\nKDMP Bantul",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kdmp.png",
+            "keywords": "kdmp|koperasi desa merah putih",
+            "type": "activity",
+            "link": "kdmp"
+        },
+        {
+            "id": 59,
+            "label": "Esurat",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/esurat.png",
+            "type": "activity",
+            "keywords": "Surban|esurat|diposisi|surat|agenda kegiatan|mail",
+            "link": "/surban",
+            "web_link": "/surban"
+        }
+    ]
+}

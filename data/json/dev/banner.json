@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "label": "HUT Bantul",
+        "icon": "",
+        "type": "external",
+        "link": "",
+        "web_link": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/banner/bfr-com.png"
+    },
+    {
+        "id": 2,
+        "label": "Bantul Run",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/banner/bfr-com.png",
+        "type": "external",
+        "link": "",
+        "web_link": "https://www.instagram.com/bantulexpo/"
+    }
+]
