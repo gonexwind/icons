@@ -8,7 +8,7 @@
                 "id": 19,
                 "label": "Kependudukan",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
-                "type": "browser",
+                "type": "external",
                 "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
                 "web_link": "https://dukcapilonline.bantulkab.go.id/"
             },
@@ -607,7 +607,7 @@
                 "id": 19,
                 "label": "Kependudukan",
                 "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
-                "type": "browser",
+                "type": "external",
                 "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
                 "web_link": "https://dukcapilonline.bantulkab.go.id"
             },
