@@ -14,5 +14,13 @@
         "type": "external",
         "link": "",
         "web_link": "https://www.instagram.com/bantul.run/"
+    },
+    {
+        "id": 3,
+        "label": "HUT RI",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/banner/hut_ri.png",
+        "type": "external",
+        "link": "",
+        "web_link": "https://www.instagram.com/republikindonesia/"
     }
 ]
