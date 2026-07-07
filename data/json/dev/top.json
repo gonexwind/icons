@@ -22,7 +22,7 @@
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/obat.png",
             "keywords": "info harga obat",
             "type": "activity",
-            "link": "rsudps-obat"
+            "link": "obatRsudps"
         },
         {
             "id": 59,
