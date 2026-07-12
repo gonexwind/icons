@@ -1,14 +1,6 @@
 {
     "data": [
         {
-            "id": 24,
-            "label": "BFR 2026",
-            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/banner/bfr.png",
-            "type": "webview",
-            "link": "bfr",
-            "web_link": "https://run.bantulkab.go.id/"
-        },
-        {
             "id": 42,
             "label": "SATRIYA\nKDMP Bantul",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kdmp.png",
