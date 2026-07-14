@@ -545,7 +545,7 @@
             "sub_menu": [
                 {
                     "label": "Layanan Kesehatan",
-                    "icon": "/menu_icon/kesehatan.png",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan.png",
                     "keywords": "",
                     "type": "submenu",
                     "sub_menu": [
@@ -769,7 +769,7 @@
             "sub_menu": [
                 {
                     "label": "Informasi Daerah",
-                    "icon": "/menu_icon/kependudukan.png",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/bantul.png",
                     "keywords": "Pengumuman|Berita|warta|pawarta|CCTV|Info Lokasi WIFI|gratis|titik|Galeri Foto|poto|album|gambar|Bantul TV|ILM|iklan layanan masyarakat|sosialisasi|video|youtube|Events Bantul|festival|acara|event|pagelaran|Satu Data|portal|statistik|geospasial|infografis|sedata sebantul|GSB|gsbb|government service bus|infrastruktur integrasi|Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu|Pertanian|irigasi|ketahanan pangan|tanam",
                     "type": "submenu",
                     "sub_menu": [
@@ -885,7 +885,7 @@
                 },
                 {
                     "label": "Pariwisata",
-                    "icon": "/menu_icon/pariwisata.png",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pariwisata.png",
                     "keywords": "Pariwisata|jelajah bantul|destinasi wisata|akomodasi|agen perjalanan|pemandu|kuliner|belanja|kerajinan|seni budaya|video|fasilitas umum|jalan-jalan|desa|beli tiket",
                     "type": "submenu",
                     "sub_menu": [
