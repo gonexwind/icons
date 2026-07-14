@@ -189,7 +189,7 @@
                         {
                             "id": 7,
                             "label": "Syarat Pengajuan Perceraian",
-                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/syarat-cerai.png",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/syarat-cerai.png",
                             "keywords": "",
                             "type": "webview",
                             "link": "https://v3.pa-bantul.go.id/persyaratan-pendaftaran-perkara/",
