@@ -310,6 +310,7 @@
                             "id": 123,
                             "label": "SIPENTOL",
                             "type": "parent",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/sipentol.png",
                             "sub_menu": [
                                 {
                                     "id": 124,
