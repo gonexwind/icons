@@ -1,0 +1,887 @@
+{
+    "data": [
+        {
+            "label": "Keluarga",
+            "icon": "/menu_icon/siklus-hidup/keluarga.png",
+            "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri|Kesehatan|stunting|rumah sakit|daftar|pendaftaran|status|verifikasi|pasien|rsud|panembahan|kamar|info|cari dokter|saras|puskesmas|hamil|rssa|saras adyatma|poli|farmasi|Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana",
+            "submenu": [
+                {
+                    "label": "Kelahiran",
+                    "icon": "/menu_icon/birth.png",
+                    "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri|Kesehatan|stunting|rumah sakit|daftar|pendaftaran|status|verifikasi|pasien|rsud|panembahan|kamar|info|cari dokter|saras|puskesmas|hamil|rssa|saras adyatma|poli|farmasi",
+                    "submenu": [
+                        {
+                            "id": 19,
+                            "label": "Dukcapil Smart",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
+                            "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
+                            "type": "external",
+                            "link": "/layanan/kependudukan/dukcapilsmart",
+                            "web_link": "https://dukcapilonline.bantulkab.go.id"
+                        },
+                        {
+                            "id": 79,
+                            "label": "Dashboard Stunting",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/stunting.png",
+                            "keywords": "Kesehatan|stunting|rumah sakit|daftar|pendaftaran|status|verifikasi|pasien|status|rsud|panembahan|kamar|info|cari dokter|saras|puskesmas|hamil|rssa|saras adyatma|antrean|poli|farmasi",
+                            "type": "webview",
+                            "link": "/informasiStunting",
+                            "web_link": "https://lookerstudio.google.com/embed/reporting/7cf94441-f9ff-412b-9856-3de6ffb6418e/page/p_cl009ilfrd"
+                        },
+                        {
+                            "id": 25,
+                            "label": "RSUD Panembahan Senopati",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/rsudps.png",
+                            "keywords": "",
+                            "type": "activity",
+                            "link": "/layanan/kesehatan/rsud",
+                            "web_link": "/layanan/kesehatan/rsud"
+                        }
+                    ]
+                },
+                {
+                    "label": "Pernikahan",
+                    "icon": "/menu_icon/wedding.png",
+                    "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
+                    "submenu": [
+                        {
+                            "id": 19,
+                            "label": "Dukcapil Smart",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
+                            "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
+                            "type": "external",
+                            "link": "https://dukcapilonline.bantulkab.go.id/",
+                            "web_link": "https://dukcapilonline.bantulkab.go.id"
+                        }
+                    ]
+                },
+                {
+                    "label": "Mengajukan Perceraian",
+                    "icon": "/menu_icon/divorce.png",
+                    "keywords": "Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana",
+                    "submenu": [
+                        {
+                            "id": 7,
+                            "label": "Syarat Pengajuan Perceraian",
+                            "icon": "/menu_icon/syarat_cerai.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://v3.pa-bantul.go.id/persyaratan-pendaftaran-perkara/",
+                            "web_link": "https://v3.pa-bantul.go.id/persyaratan-pendaftaran-perkara/"
+                        },
+                        {
+                            "id": 27,
+                            "label": "Informasi Perkara dan Jadwal Persidangan",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/sipp.png",
+                            "keywords": "Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana|",
+                            "type": "webview",
+                            "link": "sipp",
+                            "web_link": "https://sipp.pn-bantul.go.id/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Pendidikan",
+            "icon": "/menu_icon/siklus-hidup/pendidikan.png",
+            "keywords": "Pendidikan|evoss|pisa|bantul pinter|perpustakaan|anak|baca|membaca|majalah",
+            "submenu": [
+                {
+                    "label": "Sekolah",
+                    "icon": "/menu_icon/school.png",
+                    "keywords": "Pendidikan|evoss|pisa|bantul pinter|perpustakaan|anak|baca|membaca|majalah",
+                    "submenu": [
+                        {
+                            "id": 7,
+                            "label": "SPMB Online",
+                            "icon": "/menu_icon/spmb.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://bantulkab.spmb.id/",
+                            "web_link": "https://bantulkab.spmb.id/"
+                        },
+                        {
+                            "id": 97,
+                            "label": "Bantul Pinter",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/perpusda.png",
+                            "keywords": "Pendidikan|evoss|pisa|bantul pinter|perpustakaan|anak|baca|membaca|majalah",
+                            "type": "activity",
+                            "link": "perpus",
+                            "web_link": "https://perpusda.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 21,
+                            "label": "Evoss",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pendidikan/evoss.png",
+                            "keywords": "Pendidikan|evoss|pisa|bantul pinter|perpustakaan|anak|baca|membaca|majalah",
+                            "type": "webview",
+                            "link": "evoss",
+                            "web_link": "https://evoss.bantulkab.go.id/"
+                        }
+                    ]
+                },
+                {
+                    "label": "Perguruan Tinggi",
+                    "icon": "/menu_icon/university.png",
+                    "keywords": "",
+                    "submenu": [
+                        {
+                            "id": 7,
+                            "label": "Sidharma Paseban",
+                            "icon": "/menu_icon/logo_btl.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://sidharmapaseban.bantulkab.go.id/",
+                            "web_link": "https://sidharmapaseban.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 7,
+                            "label": "Magang Diskominfo Bantul",
+                            "icon": "/menu_icon/logo_btl.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://diskominfo.bantulkab.go.id/hal/informasi-magang-corner",
+                            "web_link": "https://diskominfo.bantulkab.go.id/hal/informasi-magang-corner"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Transportasi",
+            "icon": "/menu_icon/siklus-hidup/transportasi.png",
+            "keywords": "",
+            "submenu": [
+                {
+                    "label": "Memiliki Kendaraan",
+                    "icon": "/menu_icon/transportasi.png",
+                    "keywords": "",
+                    "submenu": [
+                        {
+                            "id": 7,
+                            "label": "SAMSAT",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan/dukcapil_smart.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "/layanan/coming-soon",
+                            "web_link": "/layanan/coming-soon"
+                        }
+                    ]
+                },
+                {
+                    "label": "Transportasi dan Berpergian",
+                    "icon": "/menu_icon/bepergian.png",
+                    "keywords": "",
+                    "submenu": [
+                        {
+                            "id": 37,
+                            "label": "SiPenthol",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/sipentol.png",
+                            "keywords": "",
+                            "type": "activity",
+                            "link": "/layanan/pajak-retribusi/sipenthol",
+                            "web_link": "/layanan/pajakretribusi/sipenthol"
+                        },
+                        {
+                            "id": 7,
+                            "label": "SIM PKB",
+                            "icon": "/menu_icon/logo_btl.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://simpkb.bantulkab.go.id/",
+                            "web_link": "https://simpkb.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 7,
+                            "label": "AngkotKu",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan/dukcapil_smart.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://simangkutan.bantulkab.go.id/",
+                            "web_link": "https://simangkutan.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 7,
+                            "label": "Rute Trans Jogja",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan/dukcapil_smart.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://dishub.jogjaprov.go.id/trans-jogja",
+                            "web_link": "https://dishub.jogjaprov.go.id/trans-jogja"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Dunia Usaha",
+            "icon": "/menu_icon/siklus-hidup/usaha.png",
+            "keywords": "Penanaman Modal|lantip|syarat|oss|kdmp|koperasi desa merah putih|Perdagangan|bapok|sembako|info bahan pokok|pasar|belanja|Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|rusunawa|air|sampah|realisasi",
+            "submenu": [
+                {
+                    "label": "Memulai Usaha",
+                    "icon": "/menu_icon/mulai_usaha.png",
+                    "keywords": "Penanaman Modal|lantip|syarat|oss|kdmp|koperasi desa merah putih|Perdagangan|bapok|sembako|info bahan pokok|pasar|belanja|Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|rusunawa|air|sampah|realisasi",
+                    "submenu": [
+                        {
+                            "id": 34,
+                            "label": "OSS",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/oss.png",
+                            "keywords": "Penanaman Modal|lantip|syarat|oss",
+                            "type": "webview",
+                            "link": "oss",
+                            "web_link": "https://oss.go.id/"
+                        },
+                        {
+                            "id": 33,
+                            "label": "Izin Online",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/bantul.png",
+                            "keywords": "Penanaman Modal|lantip|syarat|oss",
+                            "type": "webview",
+                            "link": "izinonline",
+                            "web_link": "https://izinonline.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 39,
+                            "label": "Pengecekan Tagihan Retribusi",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/realisasi_retribusi.png",
+                            "keywords": "",
+                            "type": "activity",
+                            "link": "/layanan/pajak-retribusi/retribusi",
+                            "web_link": "/layanan/pajakretribusi/pasar"
+                        },
+                        {
+                            "id": 34,
+                            "label": "Sidakui",
+                            "icon": "/menu_icon/logo_btl.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://sidakui.bantulkab.go.id/sidakui/",
+                            "web_link": "https://sidakui.bantulkab.go.id/sidakui/"
+                        },
+                        {
+                            "id": 42,
+                            "label": "Satriya KDMP",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kdmp.png",
+                            "keywords": "kdmp|koperasi desa merah putih",
+                            "type": "activity",
+                            "link": "kdmp",
+                            "web_link": "/layanan/coming-soon"
+                        },
+                        {
+                            "id": 44,
+                            "label": "Bantul Online Shop (BOS)",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bos.png",
+                            "keywords": "Perdagangan|bapok|sembako|info bahan pokok|pasar|belanja",
+                            "type": "webview",
+                            "link": "bos",
+                            "web_link": "https://bos.bantulkab.go.id/id"
+                        },
+                        {
+                            "id": 33,
+                            "label": "Lantip",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanaman_modal/lantip.png",
+                            "keywords": "Penanaman Modal|lantip|syarat|oss",
+                            "type": "activity",
+                            "link": "lantip",
+                            "web_link": "/layanan/penanamanmodal/lantip"
+                        },
+                        {
+                            "id": 122,
+                            "label": "Lapak Bantul",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/lapak_bantul.png",
+                            "keywords": "Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|tagihan|rusunawa|air|sampah|pasar|realisasi",
+                            "type": "webview",
+                            "link": "lapakBantul",
+                            "web_link": "https://play.google.com/store/apps/details?id=com.lapakbantul"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Lapangan Kerja",
+            "icon": "/menu_icon/siklus-hidup/lapangan_kerja.png",
+            "keywords": "",
+            "submenu": [
+                {
+                    "label": "Mencari Pekerjaan",
+                    "icon": "/menu_icon/job.png",
+                    "keywords": "",
+                    "submenu": [
+                        {
+                            "id": 34,
+                            "label": "Job Fair",
+                            "icon": "/menu_icon/job.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://jobfair.bantulkab.go.id/",
+                            "web_link": "https://jobfair.bantulkab.go.id/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Tempat Tinggal",
+            "icon": "/menu_icon/siklus-hidup/tempat_tinggal.png",
+            "keywords": "Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|rusunawa|air|sampah|pasar|realisasi|Penanaman Modal|lantip|syarat|oss",
+            "submenu": [
+                {
+                    "label": "Akses Tempat Tinggal",
+                    "icon": "/menu_icon/house.png",
+                    "keywords": "Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|rusunawa|air|sampah|pasar|realisasi|Penanaman Modal|lantip|syarat|oss",
+                    "submenu": [
+                        {
+                            "id": 130,
+                            "label": "Pengecekan Tagihan Rusunawa",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_rusunawa.png",
+                            "keywords": "Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|tagihan|rusunawa|air|sampah|pasar|realisasi",
+                            "type": "activity",
+                            "link": "tagihanRusunawa",
+                            "web_link": "/layanan/pajakretribusi/rusunawa"
+                        },
+                        {
+                            "id": 132,
+                            "label": "Pengecekan Tagihan Sampah",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak/tagihan_sampah.png",
+                            "keywords": "Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|tagihan|rusunawa|air|sampah|pasar|realisasi",
+                            "type": "activity",
+                            "link": "tagihanSampah",
+                            "web_link": "/layanan/pajakretribusi/sampah"
+                        },
+                        {
+                            "id": 34,
+                            "label": "Sipetarung",
+                            "icon": "https://sipetarung.bantulkab.go.id/build/assets/logo_app-CzvYGgrv.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://sipetarung.bantulkab.go.id/",
+                            "web_link": "https://sipetarung.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 33,
+                            "label": "Izin Online",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/bantul.png",
+                            "keywords": "Penanaman Modal|lantip|syarat|oss",
+                            "type": "webview",
+                            "link": "izinonline",
+                            "web_link": "https://izinonline.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 78,
+                            "label": "Pajakda",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pajak_retribusi.png",
+                            "keywords": "Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|tagihan|rusunawa|air|sampah|pasar|realisasi",
+                            "type": "webview",
+                            "link": "pajakda",
+                            "web_link": "https://pajakda.bantulkab.go.id"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Kesehatan",
+            "icon": "/menu_icon/siklus-hidup/kesehatan.png",
+            "keywords": "",
+            "submenu": [
+                {
+                    "label": "Layanan Kesehatan",
+                    "icon": "/menu_icon/kesehatan.png",
+                    "keywords": "",
+                    "submenu": [
+                        {
+                            "id": 34,
+                            "label": "Halo Bangga",
+                            "icon": "/menu_icon/halo_bangga.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://play.google.com/store/apps/details?id=id.go.bantulkab.halobangga&hl=id",
+                            "web_link": "https://play.google.com/store/apps/details?id=id.go.bantulkab.halobangga&hl=id"
+                        },
+                        {
+                            "id": 34,
+                            "label": "DGS",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "/layanan/coming-soon",
+                            "web_link": "/layanan/coming-soon"
+                        },
+                        {
+                            "id": 25,
+                            "label": "RSUD Panembahan Senopati",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/rsudps.png",
+                            "keywords": "",
+                            "type": "activity",
+                            "link": "/layanan/kesehatan/rsud",
+                            "web_link": "/layanan/kesehatan/rsud"
+                        },
+                        {
+                            "id": 24,
+                            "label": "RSUD Saras Adyatma",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/rssa.png",
+                            "keywords": "",
+                            "type": "activity",
+                            "link": "/layanan/kesehatan/rssa",
+                            "web_link": "/layanan/kesehatan/rssa"
+                        },
+                        {
+                            "id": 34,
+                            "label": "Sidamesra",
+                            "icon": "https://sidamesra.bantulkab.go.id/img/logo-sidamesra.png",
+                            "keywords": "",
+                            "type": "webview",
+                            "link": "https://sidamesra.bantulkab.go.id/",
+                            "web_link": "https://sidamesra.bantulkab.go.id/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Hari Tua",
+            "icon": "/menu_icon/siklus-hidup/hari_tua.png",
+            "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
+            "submenu": [
+                {
+                    "label": "Masa Tua dan Tutup Usia",
+                    "icon": "/menu_icon/old.png",
+                    "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
+                    "submenu": [
+                        {
+                            "id": 19,
+                            "label": "Dukcapil Smart",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
+                            "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
+                            "type": "external",
+                            "link": "https://dukcapilonline.bantulkab.go.id/",
+                            "web_link": "https://dukcapilonline.bantulkab.go.id"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Partisipasi Masyarakat",
+            "icon": "/menu_icon/siklus-hidup/partisipasi_masyarakat.png",
+            "keywords": "SPAN Lapor|layanan aspirasi dan pengaduan online rakyat|aduan|Hubungi Kami|lapor",
+            "submenu": [
+                {
+                    "label": "Partisipasi Publik",
+                    "icon": "/menu_icon/kependudukan.png",
+                    "keywords": "SPAN Lapor|layanan aspirasi dan pengaduan online rakyat|aduan|Hubungi Kami|lapor",
+                    "submenu": [
+                        {
+                            "id": 53,
+                            "label": "Lapor Bantul",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/lapor_bantul.png",
+                            "keywords": "SPAN Lapor|layanan aspirasi dan pengaduan online rakyat|aduan",
+                            "type": "webview",
+                            "link": "/lapor",
+                            "web_link": "https://prod.lapor.go.id/"
+                        },
+                        {
+                            "id": 52,
+                            "label": "Hubungi Kami",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hubungi_kami.png",
+                            "keywords": "Hubungi Kami|lapor|aduan",
+                            "type": "activity",
+                            "link": "/hubungiKami",
+                            "web_link": "/hubungikami"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "Lainnya",
+            "icon": "/menu_icon/siklus-hidup/informasi_dan_layanan_umum.png",
+            "keywords": "Pengumuman|Berita|warta|pawarta|CCTV|Info Lokasi WIFI|gratis|titik|Galeri Foto|poto|album|gambar|Bantul TV|ILM|iklan layanan masyarakat|sosialisasi|video|youtube|Events Bantul|festival|acara|event|pagelaran|Satu Data|portal|statistik|geospasial|infografis|sedata sebantul|GSB|gsbb|government service bus|infrastruktur integrasi|Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu|Pertanian|irigasi|ketahanan pangan|tanam|Pariwisata|jelajah bantul|destinasi wisata|akomodasi|agen perjalanan|pemandu|kuliner|belanja|kerajinan|seni budaya|fasilitas umum|jalan-jalan|desa|beli tiket|Penanda Keistimewaan|makam imogiri|kotagede|raja raja|mataram|kebudayaan|seni|Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana|Perdagangan|bapok|sembako|info bahan pokok|pasar|Surban|esurat|diposisi|surat|agenda kegiatan|mail|bantara|tte|tanda tangan elektronik|e-lektronik|Presensi|absen|kehadiran|kepegawaian|asn|pppk|e-kinerja|penilaian|digital|bantul corporate university|corpu|pelatihan|diklat|training|e-learning|pembelajaran",
+            "submenu": [
+                {
+                    "label": "Informasi Daerah",
+                    "icon": "/menu_icon/kependudukan.png",
+                    "keywords": "Pengumuman|Berita|warta|pawarta|CCTV|Info Lokasi WIFI|gratis|titik|Galeri Foto|poto|album|gambar|Bantul TV|ILM|iklan layanan masyarakat|sosialisasi|video|youtube|Events Bantul|festival|acara|event|pagelaran|Satu Data|portal|statistik|geospasial|infografis|sedata sebantul|GSB|gsbb|government service bus|infrastruktur integrasi|Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu|Pertanian|irigasi|ketahanan pangan|tanam",
+                    "submenu": [
+                        {
+                            "id": 11,
+                            "label": "Pengumuman",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/pengumuman.png",
+                            "keywords": "Pengumuman",
+                            "type": "activity",
+                            "link": "/pengumuman",
+                            "web_link": "/pengumuman"
+                        },
+                        {
+                            "id": 12,
+                            "label": "Berita",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/berita.png",
+                            "keywords": "Berita|warta|pawarta",
+                            "type": "activity",
+                            "link": "/berita",
+                            "web_link": "/berita"
+                        },
+                        {
+                            "id": 13,
+                            "label": "CCTV",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/cctv.png",
+                            "keywords": "CCTV",
+                            "type": "activity",
+                            "link": "/cctv",
+                            "web_link": "/cctv"
+                        },
+                        {
+                            "id": 14,
+                            "label": "Titik Wifi",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/info_lokasi_wifi.png",
+                            "keywords": "Info Lokasi WIFI|gratis|titik",
+                            "type": "activity",
+                            "link": "/wifi",
+                            "web_link": "/wifi"
+                        },
+                        {
+                            "id": 15,
+                            "label": "Galleri Foto",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/galeri_foto.png",
+                            "keywords": "Galeri Foto|poto|album|gambar",
+                            "type": "activity",
+                            "link": "/galeriFoto",
+                            "web_link": "/galerifoto"
+                        },
+                        {
+                            "id": 16,
+                            "label": "Galleri Video",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_tv.png",
+                            "keywords": "",
+                            "type": "activity",
+                            "link": "/galleri/video",
+                            "web_link": "/galerivideo"
+                        },
+                        {
+                            "id": 17,
+                            "label": "ILM",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_tv.png",
+                            "keywords": "Bantul TV|ILM|iklan layanan masyarakat|sosialisasi|video|youtube",
+                            "type": "activity",
+                            "link": "/bantulTv",
+                            "web_link": "/ilm"
+                        },
+                        {
+                            "id": 18,
+                            "label": "Event Bantul",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_events.png",
+                            "keywords": "Events Bantul|festival|acara|event|pagelaran",
+                            "type": "activity",
+                            "link": "/bantulEvent",
+                            "web_link": "/event"
+                        },
+                        {
+                            "id": 50,
+                            "label": "Sedata Sebantul",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/satudata.png",
+                            "keywords": "Satu Data|portal|statistik|geospasial|infografis|sedata sebantul",
+                            "type": "webview",
+                            "link": "https://data.bantulkab.go.id/",
+                            "web_link": "https://data.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 51,
+                            "label": "GSB Bantul",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/gsb_bantul.png",
+                            "keywords": "GSB|gsbb|government service bus|infrastruktur integrasi",
+                            "type": "webview",
+                            "link": "/gsb",
+                            "web_link": "https://gsb.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 26,
+                            "label": "Agenda Perangkat Daerah",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/agenda.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "activity",
+                            "link": "agendaPerangkatDaerah",
+                            "web_link": "/layanan/pemerintahan/agenda"
+                        },
+                        {
+                            "id": 132,
+                            "label": "GIS Irigasi",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pertanian/irigasi.png",
+                            "keywords": "Pertanian|irigasi|ketahanan pangan|tanam",
+                            "type": "webview",
+                            "link": "irigasi",
+                            "web_link": "https://webgisirigasi.bantulkab.go.id"
+                        }
+                    ]
+                },
+                {
+                    "label": "Pariwisata",
+                    "icon": "/menu_icon/pariwisata.png",
+                    "keywords": "Pariwisata|jelajah bantul|destinasi wisata|akomodasi|agen perjalanan|pemandu|kuliner|belanja|kerajinan|seni budaya|video|fasilitas umum|jalan-jalan|desa|beli tiket",
+                    "submenu": [
+                        {
+                            "id": 111,
+                            "label": "Jelajah Bantul",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/info.png",
+                            "keywords": "Pariwisata|jelajah bantul|destinasi wisata|akomodasi|agen perjalanan|pemandu|kuliner|belanja|kerajinan|seni budaya|video|fasilitas umum|jalan-jalan|desa|beli tiket|",
+                            "type": "activity",
+                            "link": "fasilitasUmum",
+                            "web_link": "/jelajah"
+                        },
+                        {
+                            "id": 101,
+                            "label": "Beli Tiket Wisata",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/jelajah/ticket.png",
+                            "keywords": "Pariwisata|jelajah bantul|destinasi wisata|akomodasi|agen perjalanan|pemandu|kuliner|belanja|kerajinan|seni budaya|video|fasilitas umum|jalan-jalan|desa|beli tiket|",
+                            "type": "webview",
+                            "link": "beliTiket",
+                            "web_link": "https://tiketwisata.bantulkab.go.id/"
+                        }
+                    ]
+                },
+                {
+                    "label": "Penanda Keistimewaan",
+                    "icon": "/menu_icon/rip.png",
+                    "keywords": "Penanda Keistimewaan|makam imogiri|kotagede|raja raja|mataram",
+                    "submenu": [
+                        {
+                            "id": 49,
+                            "label": "Makam Kotagede",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan/makam_kotagede.png",
+                            "keywords": "Penanda Keistimewaan|makam imogiri|kotagede|raja raja|mataram",
+                            "type": "webview",
+                            "link": "makamImogiri",
+                            "web_link": "https://makamkotagede.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 48,
+                            "label": "Makam Imogiri",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/penanda_keistimewaan/makam_imogiri.png",
+                            "keywords": "Penanda Keistimewaan|makam imogiri|kotagede|raja raja|mataram",
+                            "type": "webview",
+                            "link": "makamKotagede",
+                            "web_link": "https://makamimogiri.bantulkab.go.id/"
+                        }
+                    ]
+                },
+                {
+                    "label": "Kebudayaan",
+                    "icon": "/menu_icon/lainnya.png",
+                    "keywords": "kebudayaan|seni",
+                    "submenu": [
+                        {
+                            "id": 60,
+                            "label": "Kebudayaan",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kebudayaan.png",
+                            "keywords": "kebudayaan|seni|",
+                            "type": "webview",
+                            "link": "https://kebudayaanbantul.bantulkab.go.id/",
+                            "web_link": "https://kebudayaanbantul.bantulkab.go.id/"
+                        }
+                    ]
+                },
+                {
+                    "label": "Hukum",
+                    "icon": "/menu_icon/hukum.png",
+                    "keywords": "Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana",
+                    "submenu": [
+                        {
+                            "id": 28,
+                            "label": "JDIH DPRD",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/jdih_dprd.png",
+                            "keywords": "Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana|",
+                            "type": "webview",
+                            "link": "jdihDprd",
+                            "web_link": "https://jdih-dprd.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 27,
+                            "label": "JDIH Bantul",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/hukum/jdih.png",
+                            "keywords": "Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana|",
+                            "type": "webview",
+                            "link": "jdih",
+                            "web_link": "https://jdih.bantulkab.go.id/"
+                        }
+                    ]
+                },
+                {
+                    "label": "Perdagangan",
+                    "icon": "/menu_icon/perdagangan.png",
+                    "keywords": "Perdagangan|bapok|sembako|info bahan pokok|pasar|belanja",
+                    "submenu": [
+                        {
+                            "id": 43,
+                            "label": "Info Bahan Pokok",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bapok.png",
+                            "keywords": "Perdagangan|bapok|sembako|info bahan pokok|pasar|belanja",
+                            "type": "webview",
+                            "link": "infoBahanPokok",
+                            "web_link": "https://sigapan.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 58,
+                            "label": "Bantul Mapan",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/perdagangan/bantul-mapan.png",
+                            "keywords": "Perdagangan|bapok|sembako|info bahan pokok|pasar|belanja",
+                            "type": "webview",
+                            "link": "bantulMapan",
+                            "web_link": "https://bantulmapan.bantulkab.go.id/"
+                        }
+                    ]
+                },
+                {
+                    "label": "Layanan Pemerintah",
+                    "icon": "/menu_icon/pemerintahan.png",
+                    "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                    "submenu": [
+                        {
+                            "id": 62,
+                            "label": "SINOMAN",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sinoman.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "webview",
+                            "link": "sinoman",
+                            "web_link": "https://sinoman.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 61,
+                            "label": "CSR",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/csr.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "webview",
+                            "link": "csr",
+                            "web_link": "https://csr.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 63,
+                            "label": "SIPD",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sipd.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "webview",
+                            "link": "https://sipd.kemendagri.go.id/",
+                            "web_link": "https://sipd.kemendagri.go.id/"
+                        },
+                        {
+                            "id": 64,
+                            "label": "SiRUP",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sirup.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "webview",
+                            "link": "sirup",
+                            "web_link": "https://sirup.inaproc.go.id/sirup/rekap/klpd/D68"
+                        },
+                        {
+                            "id": 65,
+                            "label": "SAPA ASN",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sapa.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "webview",
+                            "link": "sapaAsn",
+                            "web_link": "https://asn.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 66,
+                            "label": "INAPROC",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/inaproc.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "webview",
+                            "link": "lpse",
+                            "web_link": "https://spse.inaproc.id/bantulkab"
+                        },
+                        {
+                            "id": 73,
+                            "label": "Buku Tamu",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/buku_tamu.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "activity",
+                            "link": "bukuTamu",
+                            "web_link": "/layanan/pemerintahan/bukutamu"
+                        },
+                        {
+                            "id": 74,
+                            "label": "Reservasi Kunjungan",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/kunjungan.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "activity",
+                            "link": "reservasiKunjungan",
+                            "web_link": "/layanan/pemerintahan/reservasi"
+                        },
+                        {
+                            "id": 72,
+                            "label": "IPKD",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ipkd.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "activity",
+                            "link": "ipkd",
+                            "web_link": "/layanan/pemerintahan/ipkd"
+                        },
+                        {
+                            "id": 75,
+                            "label": "Reservasi Ruangan",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ruangan.png",
+                            "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                            "type": "activity",
+                            "link": "reservasiRuangan",
+                            "web_link": "/layanan/pemerintahan/booking"
+                        }
+                    ]
+                },
+                {
+                    "label": "Layanan Administrasi Pemerintahan",
+                    "icon": "/menu_icon/pemerintahan.png",
+                    "keywords": "Surban|esurat|diposisi|surat|agenda kegiatan|mail|bantara|tte|tanda tangan elektronik|e-lektronik|Presensi|absen|kehadiran|kepegawaian|asn|pppk|aparatur sipil negara|e-kinerja|penilaian|digital|bantul corporate university|corpu|pelatihan|diklat|training|e-learning|pembelajaran",
+                    "submenu": [
+                        {
+                            "id": 59,
+                            "label": "SURBAN",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/esurat.png",
+                            "keywords": "Surban|esurat|diposisi|surat|agenda kegiatan|mail",
+                            "type": "activity",
+                            "link": "/surban",
+                            "web_link": "/surban"
+                        },
+                        {
+                            "id": 98,
+                            "label": "BANTARA",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/bantara.png",
+                            "keywords": "bantara|tte|tanda tangan elektronik|e-lektronik|Surban|esurat|diposisi|surat|agenda kegiatan|",
+                            "type": "browser",
+                            "link": "/bantara",
+                            "web_link": "https://bantara.bantulkab.go.id/"
+                        },
+                        {
+                            "id": 68,
+                            "label": "Presensi",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/presensi.png",
+                            "keywords": "Presensi|absen|kehadiran|kepegawaian|asn|pppk|aparatur sipil negara",
+                            "type": "browser",
+                            "link": "https://apps.apple.com/app/id6451241529",
+                            "web_link": "https://play.google.com/store/apps/details?id=dmi.presensibantul"
+                        },
+                        {
+                            "id": 67,
+                            "label": "eKinerja",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/e_kinerja.png",
+                            "keywords": "e-kinerja|kepegawaian|penilaian|asn|pppk|aparatur sipil negara|digital",
+                            "type": "browser",
+                            "link": "/asnDigital",
+                            "web_link": "https://asndigital.bkn.go.id"
+                        },
+                        {
+                            "id": 69,
+                            "label": "Bantul Corporate University",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/corpu.png",
+                            "keywords": "bantul corporate university|corpu|pelatihan|diklat|training|e-learning|asn|pppk|aparatur sipil negara|pembelajaran",
+                            "type": "browser",
+                            "link": "https://apps.apple.com/id/app/bantul-corpu/id6753782746",
+                            "web_link": "https://play.google.com/store/apps/details?id=id.go.bantulkab.lms"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
