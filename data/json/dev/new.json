@@ -285,14 +285,14 @@
             "sub_menu": [
                 {
                     "label": "Memiliki Kendaraan",
-                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/transportasi.png",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/transportasi.png",
                     "keywords": "",
                     "type": "submenu",
                     "sub_menu": [
                         {
                             "id": 7,
                             "label": "SAMSAT",
-                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/samsat.png",
+                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/samsat.png",
                             "keywords": "",
                             "type": "webview",
                             "link": "https://www.instagram.com/samsatbantul",
@@ -302,7 +302,7 @@
                 },
                 {
                     "label": "Transportasi dan Berpergian",
-                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/bepergian.png",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/bepergian.png",
                     "keywords": "",
                     "type": "submenu",
                     "sub_menu": [
