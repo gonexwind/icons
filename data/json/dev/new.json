@@ -4,12 +4,12 @@
             "label": "Keluarga",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/keluarga.png",
             "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri|Kesehatan|stunting|rumah sakit|daftar|pendaftaran|status|verifikasi|pasien|rsud|panembahan|kamar|info|cari dokter|saras|puskesmas|hamil|rssa|saras adyatma|poli|farmasi|Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana",
-            "submenu": [
+            "sub_menu": [
                 {
                     "label": "Kelahiran",
                     "icon": "/menu_icon/birth.png",
                     "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri|Kesehatan|stunting|rumah sakit|daftar|pendaftaran|status|verifikasi|pasien|rsud|panembahan|kamar|info|cari dokter|saras|puskesmas|hamil|rssa|saras adyatma|poli|farmasi",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 19,
                             "label": "Dukcapil Smart",
@@ -43,7 +43,7 @@
                     "label": "Pernikahan",
                     "icon": "/menu_icon/wedding.png",
                     "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 19,
                             "label": "Dukcapil Smart",
@@ -59,7 +59,7 @@
                     "label": "Mengajukan Perceraian",
                     "icon": "/menu_icon/divorce.png",
                     "keywords": "Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 7,
                             "label": "Syarat Pengajuan Perceraian",
@@ -86,12 +86,12 @@
             "label": "Pendidikan",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/pendidikan.png",
             "keywords": "Pendidikan|evoss|pisa|bantul pinter|perpustakaan|anak|baca|membaca|majalah",
-            "submenu": [
+            "sub_menu": [
                 {
                     "label": "Sekolah",
                     "icon": "/menu_icon/school.png",
                     "keywords": "Pendidikan|evoss|pisa|bantul pinter|perpustakaan|anak|baca|membaca|majalah",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 7,
                             "label": "SPMB Online",
@@ -125,7 +125,7 @@
                     "label": "Perguruan Tinggi",
                     "icon": "/menu_icon/university.png",
                     "keywords": "",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 7,
                             "label": "Sidharma Paseban",
@@ -152,12 +152,12 @@
             "label": "Transportasi",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/transportasi.png",
             "keywords": "",
-            "submenu": [
+            "sub_menu": [
                 {
                     "label": "Memiliki Kendaraan",
                     "icon": "/menu_icon/transportasi.png",
                     "keywords": "",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 7,
                             "label": "SAMSAT",
@@ -173,7 +173,7 @@
                     "label": "Transportasi dan Berpergian",
                     "icon": "/menu_icon/bepergian.png",
                     "keywords": "",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 37,
                             "label": "SiPenthol",
@@ -218,12 +218,12 @@
             "label": "Dunia Usaha",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/usaha.png",
             "keywords": "Penanaman Modal|lantip|syarat|oss|kdmp|koperasi desa merah putih|Perdagangan|bapok|sembako|info bahan pokok|pasar|belanja|Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|rusunawa|air|sampah|realisasi",
-            "submenu": [
+            "sub_menu": [
                 {
                     "label": "Memulai Usaha",
                     "icon": "/menu_icon/mulai_usaha.png",
                     "keywords": "Penanaman Modal|lantip|syarat|oss|kdmp|koperasi desa merah putih|Perdagangan|bapok|sembako|info bahan pokok|pasar|belanja|Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|rusunawa|air|sampah|realisasi",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 34,
                             "label": "OSS",
@@ -304,12 +304,12 @@
             "label": "Lapangan Kerja",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/lapangan_kerja.png",
             "keywords": "",
-            "submenu": [
+            "sub_menu": [
                 {
                     "label": "Mencari Pekerjaan",
                     "icon": "/menu_icon/job.png",
                     "keywords": "",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 34,
                             "label": "Job Fair",
@@ -327,12 +327,12 @@
             "label": "Tempat Tinggal",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/tempat_tinggal.png",
             "keywords": "Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|rusunawa|air|sampah|pasar|realisasi|Penanaman Modal|lantip|syarat|oss",
-            "submenu": [
+            "sub_menu": [
                 {
                     "label": "Akses Tempat Tinggal",
                     "icon": "/menu_icon/house.png",
                     "keywords": "Pajak Retribusi|lapak bantul|info|kuota|tagihan|kendaraan|cek|rusunawa|air|sampah|pasar|realisasi|Penanaman Modal|lantip|syarat|oss",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 130,
                             "label": "Pengecekan Tagihan Rusunawa",
@@ -386,12 +386,12 @@
             "label": "Kesehatan",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/kesehatan.png",
             "keywords": "",
-            "submenu": [
+            "sub_menu": [
                 {
                     "label": "Layanan Kesehatan",
                     "icon": "/menu_icon/kesehatan.png",
                     "keywords": "",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 34,
                             "label": "Halo Bangga",
@@ -445,12 +445,12 @@
             "label": "Hari Tua",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/hari_tua.png",
             "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
-            "submenu": [
+            "sub_menu": [
                 {
                     "label": "Masa Tua dan Tutup Usia",
                     "icon": "/menu_icon/old.png",
                     "keywords": "Kependudukan|dukcapil|keluarga|pindah|datang|keluar|ktp|kia|anak|induk|kartu|tanda|akta|kelahiran|kematian|perceraian|hilang|legalisir|antrean|antri",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 19,
                             "label": "Dukcapil Smart",
@@ -468,12 +468,12 @@
             "label": "Partisipasi Masyarakat",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/partisipasi_masyarakat.png",
             "keywords": "SPAN Lapor|layanan aspirasi dan pengaduan online rakyat|aduan|Hubungi Kami|lapor",
-            "submenu": [
+            "sub_menu": [
                 {
                     "label": "Partisipasi Publik",
                     "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kependudukan.png",
                     "keywords": "SPAN Lapor|layanan aspirasi dan pengaduan online rakyat|aduan|Hubungi Kami|lapor",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 53,
                             "label": "Lapor Bantul",
@@ -500,12 +500,12 @@
             "label": "Lainnya",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/more.png",
             "keywords": "Pengumuman|Berita|warta|pawarta|CCTV|Info Lokasi WIFI|gratis|titik|Galeri Foto|poto|album|gambar|Bantul TV|ILM|iklan layanan masyarakat|sosialisasi|video|youtube|Events Bantul|festival|acara|event|pagelaran|Satu Data|portal|statistik|geospasial|infografis|sedata sebantul|GSB|gsbb|government service bus|infrastruktur integrasi|Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu|Pertanian|irigasi|ketahanan pangan|tanam|Pariwisata|jelajah bantul|destinasi wisata|akomodasi|agen perjalanan|pemandu|kuliner|belanja|kerajinan|seni budaya|fasilitas umum|jalan-jalan|desa|beli tiket|Penanda Keistimewaan|makam imogiri|kotagede|raja raja|mataram|kebudayaan|seni|Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana|Perdagangan|bapok|sembako|info bahan pokok|pasar|Surban|esurat|diposisi|surat|agenda kegiatan|mail|bantara|tte|tanda tangan elektronik|e-lektronik|Presensi|absen|kehadiran|kepegawaian|asn|pppk|e-kinerja|penilaian|digital|bantul corporate university|corpu|pelatihan|diklat|training|e-learning|pembelajaran",
-            "submenu": [
+            "sub_menu": [
                 {
                     "label": "Informasi Daerah",
                     "icon": "/menu_icon/kependudukan.png",
                     "keywords": "Pengumuman|Berita|warta|pawarta|CCTV|Info Lokasi WIFI|gratis|titik|Galeri Foto|poto|album|gambar|Bantul TV|ILM|iklan layanan masyarakat|sosialisasi|video|youtube|Events Bantul|festival|acara|event|pagelaran|Satu Data|portal|statistik|geospasial|infografis|sedata sebantul|GSB|gsbb|government service bus|infrastruktur integrasi|Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu|Pertanian|irigasi|ketahanan pangan|tanam",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 11,
                             "label": "Pengumuman",
@@ -620,7 +620,7 @@
                     "label": "Pariwisata",
                     "icon": "/menu_icon/pariwisata.png",
                     "keywords": "Pariwisata|jelajah bantul|destinasi wisata|akomodasi|agen perjalanan|pemandu|kuliner|belanja|kerajinan|seni budaya|video|fasilitas umum|jalan-jalan|desa|beli tiket",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 111,
                             "label": "Jelajah Bantul",
@@ -645,7 +645,7 @@
                     "label": "Penanda Keistimewaan",
                     "icon": "/menu_icon/rip.png",
                     "keywords": "Penanda Keistimewaan|makam imogiri|kotagede|raja raja|mataram",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 49,
                             "label": "Makam Kotagede",
@@ -670,7 +670,7 @@
                     "label": "Kebudayaan",
                     "icon": "/menu_icon/lainnya.png",
                     "keywords": "kebudayaan|seni",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 60,
                             "label": "Kebudayaan",
@@ -686,7 +686,7 @@
                     "label": "Hukum",
                     "icon": "/menu_icon/hukum.png",
                     "keywords": "Hukum|jdih dprd|peraturan|perkara|sidang|perdata|pidana",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 28,
                             "label": "JDIH DPRD",
@@ -711,7 +711,7 @@
                     "label": "Perdagangan",
                     "icon": "/menu_icon/perdagangan.png",
                     "keywords": "Perdagangan|bapok|sembako|info bahan pokok|pasar|belanja",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 43,
                             "label": "Info Bahan Pokok",
@@ -736,7 +736,7 @@
                     "label": "Layanan Pemerintah",
                     "icon": "/menu_icon/pemerintahan.png",
                     "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 62,
                             "label": "SINOMAN",
@@ -833,7 +833,7 @@
                     "label": "Layanan Administrasi Pemerintahan",
                     "icon": "/menu_icon/pemerintahan.png",
                     "keywords": "Surban|esurat|diposisi|surat|agenda kegiatan|mail|bantara|tte|tanda tangan elektronik|e-lektronik|Presensi|absen|kehadiran|kepegawaian|asn|pppk|aparatur sipil negara|e-kinerja|penilaian|digital|bantul corporate university|corpu|pelatihan|diklat|training|e-learning|pembelajaran",
-                    "submenu": [
+                    "sub_menu": [
                         {
                             "id": 59,
                             "label": "SURBAN",
