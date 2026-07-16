@@ -2,6 +2,14 @@
     "data": [
         {
             "id": 42,
+            "label": "Info Harga Obat",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/obat.png",
+            "keywords": "info harga obat",
+            "type": "activity",
+            "link": "obatRsudps"
+        },
+        {
+            "id": 42,
             "label": "SATRIYA\nKDMP Bantul",
             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kdmp.png",
             "keywords": "kdmp|koperasi desa merah putih|kopdes|satriya",
