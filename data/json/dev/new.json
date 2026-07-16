@@ -294,7 +294,7 @@
                             "label": "SAMSAT",
                             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/samsat.png",
                             "keywords": "",
-                            "type": "webview",
+                            "type": "external",
                             "link": "https://www.instagram.com/samsatbantul",
                             "web_link": "https://www.instagram.com/samsatbantul"
                         }
@@ -469,7 +469,7 @@
                             "label": "Job Fair",
                             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/job.png",
                             "keywords": "",
-                            "type": "webview",
+                            "type": "external",
                             "link": "https://www.instagram.com/disnaker.bantul/",
                             "web_link": "https://www.instagram.com/disnaker.bantul/"
                         }
