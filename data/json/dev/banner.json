@@ -8,11 +8,11 @@
         "web_link": "https://www.instagram.com/harijadibantul/"
     },
     {
-        "id": 2,
-        "label": "Bantul Run",
-        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/banner/bfr-com.png",
+        "id": 3,
+        "label": "HUT RI",
+        "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/banner/hut_ri.png",
         "type": "external",
         "link": "",
-        "web_link": "https://www.instagram.com/bantul.run/"
+        "web_link": "https://www.instagram.com/republikindonesia/"
     }
 ]
