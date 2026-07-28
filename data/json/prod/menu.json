@@ -1231,7 +1231,7 @@
                 {
                     "id": 42,
                     "label": "E-SAKIP",
-                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/bantul.png",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/bantul.png",
                     "keywords": "Elektronik Sistem Akuntabilitas Kinerja Instansi Pemerintah|perencanaan, pengukuran, pemantauan, dan pelaporan kinerja instansi pemerintah|e-sakip|sakip|esakip",
                     "type": "webview",
                     "link": "https://esakip.bantulkab.go.id",
