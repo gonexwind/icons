@@ -100,6 +100,14 @@
                                     "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/dokter.png",
                                     "type": "activity",
                                     "link": "cariDokterRsud"
+                                },
+                                {
+                                    "id": 42,
+                                    "label": "Info Harga Obat",
+                                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/obat.png",
+                                    "keywords": "info harga obat",
+                                    "type": "activity",
+                                    "link": "obatRsudps"
                                 }
                             ]
                         },
@@ -629,6 +637,14 @@
                                     "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/dokter.png",
                                     "type": "activity",
                                     "link": "cariDokterRsud"
+                                },
+                                {
+                                    "id": 42,
+                                    "label": "Info Harga Obat",
+                                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/obat.png",
+                                    "keywords": "info harga obat",
+                                    "type": "activity",
+                                    "link": "obatRsudps"
                                 }
                             ]
                         },
