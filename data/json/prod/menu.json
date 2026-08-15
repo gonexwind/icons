@@ -1240,9 +1240,9 @@
                     "label": "Reservasi Ruangan",
                     "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ruangan.png",
                     "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
-                    "type": "activity",
+                    "type": "external",
                     "link": "reservasiRuangan",
-                    "web_link": "/layanan/pemerintahan/booking"
+                    "web_link": "https://bantulpedia.bantulkab.go.id/layanan/pemerintahan/booking"
                 },
                 {
                     "id": 42,
