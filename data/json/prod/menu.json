@@ -1128,15 +1128,6 @@
                     "web_link": "https://bantara.bantulkab.go.id/"
                 },
                 {
-                    "id": 68,
-                    "label": "Presensi",
-                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/presensi.png",
-                    "keywords": "Presensi|absen|kehadiran|kepegawaian|asn|pppk|aparatur sipil negara",
-                    "type": "browser",
-                    "link": "https://apps.apple.com/app/id6451241529",
-                    "web_link": "https://play.google.com/store/apps/details?id=dmi.presensibantul"
-                },
-                {
                     "id": 67,
                     "label": "ASN DIGITAL",
                     "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/e_kinerja.png",
@@ -1146,6 +1137,15 @@
                     "web_link": "https://asndigital.bkn.go.id"
                 },
                 {
+                    "id": 65,
+                    "label": "SAPA ASN",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sapa.png",
+                    "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                    "type": "webview",
+                    "link": "sapaAsn",
+                    "web_link": "https://asn.bantulkab.go.id/"
+                },
+                {
                     "id": 69,
                     "label": "Bantul Corporate University",
                     "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/corpu.png",
@@ -1153,6 +1153,33 @@
                     "type": "browser",
                     "link": "https://corpu.bantulkab.go.id/",
                     "web_link": "https://corpu.bantulkab.go.id/"
+                },
+                {
+                    "id": 73,
+                    "label": "Buku Tamu",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/buku_tamu.png",
+                    "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                    "type": "activity",
+                    "link": "bukuTamu",
+                    "web_link": "/layanan/pemerintahan/bukutamu"
+                },
+                {
+                    "id": 74,
+                    "label": "Reservasi Kunjungan",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/kunjungan.png",
+                    "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                    "type": "activity",
+                    "link": "reservasiKunjungan",
+                    "web_link": "/layanan/pemerintahan/reservasi"
+                },
+                {
+                    "id": 75,
+                    "label": "Reservasi Ruangan",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ruangan.png",
+                    "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
+                    "type": "activity",
+                    "link": "reservasiRuangan",
+                    "web_link": "https://bantulpedia.bantulkab.go.id/layanan/pemerintahan/booking"
                 },
                 {
                     "id": 62,
@@ -1191,15 +1218,6 @@
                     "web_link": "https://sirup.inaproc.id/sirup/rekap/klpd/D68"
                 },
                 {
-                    "id": 65,
-                    "label": "SAPA ASN",
-                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/sapa.png",
-                    "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
-                    "type": "webview",
-                    "link": "sapaAsn",
-                    "web_link": "https://asn.bantulkab.go.id/"
-                },
-                {
                     "id": 66,
                     "label": "INAPROC",
                     "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/inaproc.png",
@@ -1207,24 +1225,6 @@
                     "type": "webview",
                     "link": "lpse",
                     "web_link": "https://spse.inaproc.id/bantulkab"
-                },
-                {
-                    "id": 73,
-                    "label": "Buku Tamu",
-                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/buku_tamu.png",
-                    "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
-                    "type": "activity",
-                    "link": "bukuTamu",
-                    "web_link": "/layanan/pemerintahan/bukutamu"
-                },
-                {
-                    "id": 74,
-                    "label": "Reservasi Kunjungan",
-                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/kunjungan.png",
-                    "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
-                    "type": "activity",
-                    "link": "reservasiKunjungan",
-                    "web_link": "/layanan/pemerintahan/reservasi"
                 },
                 {
                     "id": 72,
@@ -1236,22 +1236,22 @@
                     "web_link": "/layanan/pemerintahan/ipkd"
                 },
                 {
-                    "id": 75,
-                    "label": "Reservasi Ruangan",
-                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/pemerintahan/ruangan.png",
-                    "keywords": "Pemerintahan|agenda perangkat daerah|sinoman|csr|corporate social responsibility|ipkd|transparansi daerah|lpse|sapa asn|aparatur sipil negara|sipd|sirup|sistem informasi pemerintah daerah|Sistem Informasi Rencana Umum Pengadaan|reservasi ruangan|reservasi kunjungan|buku tamu",
-                    "type": "activity",
-                    "link": "reservasiRuangan",
-                    "web_link": "https://bantulpedia.bantulkab.go.id/layanan/pemerintahan/booking"
-                },
-                {
-                    "id": 42,
+                    "id": 76,
                     "label": "E-SAKIP",
                     "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/bantul.png",
                     "keywords": "Elektronik Sistem Akuntabilitas Kinerja Instansi Pemerintah|perencanaan, pengukuran, pemantauan, dan pelaporan kinerja instansi pemerintah|e-sakip|sakip|esakip",
                     "type": "webview",
                     "link": "https://esakip.bantulkab.go.id",
                     "web_link": "https://esakip.bantulkab.go.id"
+                },
+                {
+                    "id": 68,
+                    "label": "Presensi",
+                    "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_administrasi_pemerintahan/presensi.png",
+                    "keywords": "Presensi|absen|kehadiran|kepegawaian|asn|pppk|aparatur sipil negara",
+                    "type": "browser",
+                    "link": "https://apps.apple.com/app/id6451241529",
+                    "web_link": "https://play.google.com/store/apps/details?id=dmi.presensibantul"
                 }
             ]
         }
