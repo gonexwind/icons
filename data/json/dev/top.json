@@ -18,11 +18,11 @@
         },
         {
             "id": 42,
-            "label": "Info Harga Obat",
-            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/layanan_publik/kesehatan/obat.png",
-            "keywords": "info harga obat",
+            "label": "Linmas Manunggal",
+            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/icons/layanan/linmas.png",
+            "keywords": "linmas manunggal|perlindungan masyarakat|warga",
             "type": "activity",
-            "link": "obatRsudps"
+            "link": "linmas"
         },
         {
             "id": 59,
