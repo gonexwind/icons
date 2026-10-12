@@ -828,19 +828,10 @@
                             "web_link": "/galerifoto"
                         },
                         {
-                            "id": 16,
-                            "label": "Galleri Video",
-                            "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_tv.png",
-                            "keywords": "",
-                            "type": "activity",
-                            "link": "/galleri/video",
-                            "web_link": "/galerivideo"
-                        },
-                        {
                             "id": 17,
-                            "label": "ILM",
+                            "label": "Bantul TV",
                             "icon": "https://raw.githubusercontent.com/gonexwind/icons/refs/heads/main/data/informasi_publik/bantul_tv.png",
-                            "keywords": "Bantul TV|ILM|iklan layanan masyarakat|sosialisasi|video|youtube",
+                            "keywords": "Bantul TV|ILM|iklan layanan masyarakat|sosialisasi|video|youtube|vidio",
                             "type": "activity",
                             "link": "/bantulTv",
                             "web_link": "/ilm"
